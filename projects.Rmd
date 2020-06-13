@@ -7,7 +7,7 @@ subtitle: Past & present
 
 <center>
 
-![](pictures/Mercurialis.jpg){width=auto height="30%" .img-circle}
+![](pictures/Mercurialis.JPG){width=auto height="30%" .img-circle}
 
 </center>
 
@@ -19,7 +19,7 @@ subtitle: Past & present
 
 <center>
 
-![](pictures/Soldanella.jpg){width=auto height="30%" .img-circle}
+![](pictures/Soldanella.JPG){width=auto height="30%" .img-circle}
 
 </center>
 
