@@ -49,7 +49,7 @@ subtitle: Past & present
 
 <center> <h1>[Gedan Lab](http://www.gedanlab.com/)</h1> </center>
 
-<center>In 2017 I had the opportunity to join the `Gedan lab` at the `George Washington University`, and I got to enjoy a field season in the salt marshes of rural Maryland. We studied the novel plant communities colonizing old agricultural fields that had to be abandoned as a consequence of rising sea level and saltwater intrusion.</center>
+<center>In 2017 I had the opportunity to join the `Gedan lab` at the `George Washington University`, and I got to enjoy a field season in the salt marshes of rural Maryland. We studied the novel plant communities colonizing old agricultural fields that had to be abandoned as a consequence of rising sea level and saltwater intrusion. Read more in <a href="https://www.theatlantic.com/science/archive/2018/03/maryland-salt-farms/554663/">The Atlantic</a> and <a href="https://www.the-scientist.com/features/climate-change-is-killing-east-coast-forests-67149">The Scientist</a>.</center>
 
 ---
 
