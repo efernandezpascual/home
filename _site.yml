@@ -1,0 +1,14 @@
+name: "Eduardo Fernández-Pascual"
+output_dir: "."
+navbar:
+  title: "Eduardo Fernández-Pascual"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Publications"
+      href: publications.html
+output:
+  html_document:
+    theme: flatly

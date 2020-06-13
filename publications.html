@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Eduardo Fernández-Pascual</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Mattana E, Pritchard HW (2019) <a href="http://dx.doi.org/10.1111/brv.12461">Seeds of future past: climate change and the thermal memory of plant reproductive traits.</a> <em>Biological Reviews</em> 94, 439-456. <a href="pdf/Fernández-Pascual et al. 2019 - Biol Reviews.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Gedan BK, <strong>Fernández-Pascual E</strong> (2019) <a href="http://doi.org/10.1111/jvs.12774">Salt marsh migration into salinized agricultural fields: a novel assembly of plant communities.</a> <em>Journal of Vegetation Science</em> 30, 1007-1016.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Blandino C, <strong>Fernández-Pascual E</strong>, Marin M, Vernet A, Pritchard HW (2019) <a href="http://dx.doi.org/10.1111/plb.12872">Seed ecology of the geophyte <em>Conopodium majus</em> (Apiaceae), indicator species of ancient woodland understories and oligotrophic meadows.</a> <em>Plant Biology</em> 21, 487-497.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Frischie S, <strong>Fernández-Pascual E</strong>, Gálvez Ramírez C, Toorop P, Hernández González M, Jiménez-Alfaro B (2019) <a href="http://dx.doi.org/10.1111/plb.12848">Hydrothermal thresholds for seed germination in winter annual forbs from old-field Mediterranean landscapes.</a> <em>Plant Biology</em> 21, 449-457.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Jiménez-Alfaro B, Hernández González M, <strong>Fernández-Pascual E</strong>, Toorop P, Frischie S, Gálvez Ramírez C (2018) <a href="http://dx.doi.org/10.1016/j.agee.2018.04.013">Germination ecology of winter annual grasses in Mediterranean climates: applications for soil cover in olive groves.</a> <em>Agriculture, Ecosystems and Environment</em> 262, 29-35.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>García-Gutiérrez T, Jiménez-Alfaro B, <strong>Fernández-Pascual E</strong>, Müller JV (2018) <a href="http://dx.doi.org/10.1127/phyto/2017/0224">Functional diversity and ecological requirements of alpine vegetation types co-occurring in a biogeographical transition zone.</a> <em>Phytocoenologia</em> 48, 77-89.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Tudela-Isanta M, <strong>Fernández-Pascual E</strong>, Pritchard HW, Wijayasinghe M, Orsenigo S, Rossi G, Mondoni A (2018) <a href="http://dx.doi.org/10.1002/ece3.3539">Habitat-related seed germination traits in alpine habitats.</a> <em>Ecology and Evolution</em> 8, 150-161. <a href="pdf/Tudela-Isanta_et_al-2018-Ecology_and_Evolution.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Pérez-Arcoiza A, Prieto JA, Díaz TE (2017) <a href="http://dx.doi.org/10.1093/aob/mcx005">Environmental filtering drives the shape and breadth of the seed germination niche in coastal plant communities.</a> <em>Annals of Botany</em> 119, 1169-1177. <a href="pdf/Fernández-Pascual et al. 2017 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Bueno A (2017) <a href="http://dx.doi.org/10.1111/plb.12472">Comparative seed germination traits in alpine and subalpine grasslands: higher elevations are associated with warmer germination temperatures.</a> <em>Plant Biology</em> 19, 32-40. <a href="pdf/Fernández-Pascual et al. 2017 - Plant Biology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Martínez-Baniela M, Carlón L, Díaz TE, Bueno A, <strong>Fernández-Pascual E</strong> (2016) <a href="http://dx.doi.org/10.1016/j.flora.2016.04.014">Plant-derived smoke and temperature effects on seed germination of five <em>Helianthemum</em> (Cistaceae).</a> <em>Flora</em> 223, 56-61. <a href="pdf/Martínez-Baniela et al. 2016 - Flora (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong> (2016) <a href="http://dx.doi.org/10.1016/j.aquabot.2016.01.001">Comparative seed germination traits in bog and fen mire wetlands.</a> <em>Aquatic Botany</em> 130, 21-26. <a href="pdf/Fernández-Pascual 2016 - Aquatic Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Hájek M, Díaz TE, Pritchard HW (2015) <a href="http://dx.doi.org/10.1007/s12224-015-9223-y">Soil thermal buffer and regeneration niche may favour calcareous fen resilience to climate change.</a> <em>Folia Geobotanica</em> 50, 293-301. <a href="pdf/Fernández-Pascual et al. 2015 - Folia Geobotanica (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Seal CE, Pritchard HW (2015) <a href="http://dx.doi.org/10.1093/aob/mcu234">Simulating the germination response to diurnally alternating temperatures under climate change scenarios: comparative studies on <em>Carex diandra</em> seeds.</a> <em>Annals of Botany</em> 115, 201-209. <a href="pdf/Fernández-Pascual et al. 2015 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B (2014) <a href="http://dx.doi.org/10.1017/S0960258514000269">Phenotypic plasticity in seed germination correlates differentially with overwintering and flowering temperatures.</a> <em>Seed Science Research</em> 24, 273-280. <a href="pdf/Fernández-Pascual & Jimenez-Alfaro 2014 - SSR (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Caujapé-Castells J, Jaén-Molina R, Díaz TE (2013) <a href="http://dx.doi.org/10.1093/aob/mct154">A local dormancy cline is related to the seed maturation environment, population genetic composition and climate.</a> <em>Annals of Botany</em> 112, 937-945. <a href="pdf/Fernández-Pascual et al. 2013 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Díaz TE (2013) <a href="http://dx.doi.org/10.1007/s11258-012-0165-7">The temperature dimension of the seed germination niche in fen wetlands.</a> <em>Plant Ecology</em> 214, 489-499. <a href="pdf/Fernández-Pascual et al. 2013 - Plant Ecology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Jiménez-Alfaro B, <strong>Fernández-Pascual E</strong>, Díaz TE, Pérez-Haase A, Ninot JM (2012) <a href="http://dx.doi.org/10.1007/s12224-012-9125-1">Diversity of rich-fen vegetation and related plant specialists in mountain refugia of the Iberian Peninsula.</a> <em>Folia Geobotanica</em> 47, 403-419.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, García-Torrico AI, Pérez-García F, Díaz TE (2012) <a href="http://dx.doi.org/10.1017/S0960258512000062">Germination ecology of the perennial <em>Centaurium somedanum</em>, a specialist species of mountain springs.</a> <em>Seed Science Research</em> 22, 199-205. <a href="pdf/Fernández-Pascual et al. 2012 - SSR (Pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+</blockquote>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
