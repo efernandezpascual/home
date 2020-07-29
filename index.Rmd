@@ -4,7 +4,7 @@ title: "Eduardo Fernández-Pascual  ![](pictures/Me.jpg){width=auto height=60 .i
 
 <center>
 
-![](pictures/Retriñón.JPG){width=auto height="30%"}
+![](pictures/Retriñón.JPG){width=auto height=auto}
 
 </center>
 
