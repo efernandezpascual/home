@@ -2,7 +2,23 @@
 title: "Eduardo Fernández-Pascual  ![](pictures/Me.jpg){width=auto height=60 .img-circle}"
 ---
 
->Plant ecology & conservation 
+<center>
+
+![](pictures/Retriñón.JPG){width=auto height="30%"}
+
+</center>
+
+I'm a biologist working on plant ecology and conservation, with a focus on plant regeneration by seed:
+
+* The environmental control of seed germination timing in wild species, and how this control is affected by climatic changes.
+
+* The patterns and drivers of seed diversity across species and communities.
+
+* The application of seed science in plant conservation and ecological restoration.
+
+My main study system are the diverse plant communities of the Cantabrian Mountains of Spain, including temperate forests, mires and alpine meadows.
+
+In this website I collect my datasets, publications and research interests. Do get in touch!
 
 ---
 
