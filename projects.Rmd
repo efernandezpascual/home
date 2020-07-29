@@ -1,6 +1,5 @@
 ---
 title: "Projects"
-subtitle: Past & present
 ---
 
 ---
