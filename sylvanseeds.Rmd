@@ -1,0 +1,20 @@
+---
+title: "SylvanSeeds"
+subtitle: "A seed germination database for temperate deciduous forests"
+---
+
+![](pictures/2017070313 Blue Ridge Parkway small.jpg)
+
+`SylvanSeeds` is a dataset of seed germination ecology for the temperate broadleaf and mixed forest biome of the northern hemisphere. It contains data on >300 plant species, obtained from >500 published references. The data is in the form of germination proportions recorded under experimental combinations of temperature, light, scarification and stratification.
+
+## How to access SylvanSeeds
+
+* [Get the database in `.csv` format](https://github.com/efernandezpascual/sylvanseeds/blob/master/results/TBMF_Database.csv)
+* [Check the `shiny` app for visualizing the dataset](https://efernandezpascual.shinyapps.io/sylvanseeds/)
+* [Read the report paper describing the collection and fields of the dataset](https://github.com/efernandezpascual/sylvanseeds/blob/master/doc/manuscript.md), published in the Journal of Vegetation Science.
+
+## Citation
+
+Please cite `SylvanSeeds` as:
+
+> Fernández-Pascual, E (2020) SylvanSeeds, a seed germination database for temperate deciduous forests. Journal of Vegetation Science, in press.

@@ -9,6 +9,8 @@ navbar:
       href: projects.html
     - text: "Publications"
       href: publications.html
+    - text: "SylvanSeeds"
+      href: sylvanseeds.html
 output:
   html_document:
     theme: flatly
