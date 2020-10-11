@@ -4,6 +4,16 @@ title: "Publications"
 
 ---
 
+>**Fernández-Pascual E**, Correia-Álvarez E (2021) Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils. *International Journal of Climatology*, in press.
+><a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+
+---
+
+>**Fernández-Pascual E** (2021) SylvanSeeds, a seed germination database for temperate deciduous forests. *Journal of Vegetation Science*, in press.
+><a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+
+---
+
 >**Fernández-Pascual E**, Mattana E, Pritchard HW (2019) [Seeds of future past: climate change and the thermal memory of plant reproductive traits.](http://dx.doi.org/10.1111/brv.12461) *Biological Reviews* 94, 439-456. 
 ><a href="pdf/Fernández-Pascual et al. 2019 - Biol Reviews.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a>
 

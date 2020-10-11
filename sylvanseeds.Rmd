@@ -3,6 +3,8 @@ title: "SylvanSeeds"
 subtitle: "A seed germination database for temperate deciduous forests"
 ---
 
+---
+
 ![](pictures/2017070313 Blue Ridge Parkway small.jpg)
 
 `SylvanSeeds` is a database of seed germination ecology for the temperate broadleaf and mixed forest biome of the northern hemisphere. It contains data on >300 plant species, obtained from >500 published references. The data is in the form of germination proportions recorded under experimental combinations of temperature, light, scarification and stratification.

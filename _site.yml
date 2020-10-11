@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Projects"
-      href: projects.html
+    - text: "Networks"
+      href: networks.html
     - text: "Publications"
       href: publications.html
     - text: "SylvanSeeds"
