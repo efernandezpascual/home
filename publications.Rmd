@@ -9,7 +9,7 @@ title: "Publications"
 
 ---
 
->**Fernández-Pascual E** (2021) SylvanSeeds, a seed germination database for temperate deciduous forests. *Journal of Vegetation Science*, in press.
+>**Fernández-Pascual E** (2021) [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) *Journal of Vegetation Science*, in press.
 ><a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
