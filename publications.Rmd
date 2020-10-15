@@ -4,7 +4,7 @@ title: "Publications"
 
 ---
 
->**Fernández-Pascual E**, Correia-Álvarez E (2021) Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils. *International Journal of Climatology*, in press.
+>**Fernández-Pascual E**, Correia-Álvarez E (2021) [Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils.](https://doi.org/10.1002/joc.6893) *International Journal of Climatology*, in press.
 ><a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---

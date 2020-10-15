@@ -13,10 +13,10 @@ subtitle: "A seed germination database for temperate deciduous forests"
 
 * [Get the database in `.csv` format](https://github.com/efernandezpascual/sylvanseeds/blob/master/results/TBMF_Database.csv)
 * [Check the `shiny` app for visualizing the dataset](https://efernandezpascual.shinyapps.io/sylvanseeds/)
-* [Read the report paper describing the collection and fields of the dataset](https://github.com/efernandezpascual/sylvanseeds/blob/master/doc/manuscript.md), in preparation.
+* [Read the report paper describing the collection and fields of the dataset](https://github.com/efernandezpascual/sylvanseeds/blob/master/doc/manuscript.md), published in the [Journal of Vegetation Science](https://doi.org/10.1111/jvs.12960).
 
 ## Citation
 
 Please cite `SylvanSeeds` as:
 
-> Fernández-Pascual, E. (2021). [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) Journal of Vegetation Science.
+> Fernández-Pascual E (2021) [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) Journal of Vegetation Science.
