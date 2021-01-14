@@ -11,6 +11,8 @@ navbar:
       href: publications.html
     - text: "SylvanSeeds"
       href: sylvanseeds.html
+    - text: "seedr"
+      href: seedr.html
 output:
   html_document:
     theme: flatly

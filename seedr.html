@@ -11,7 +11,7 @@
 
 
 
-<title>Networks</title>
+<title>seedr</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -307,73 +307,68 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Networks</h1>
-<h3 class="subtitle">Collaborative plant science</h3>
+<h1 class="title toc-ignore">seedr</h1>
+<h3 class="subtitle">Hydro and Thermal Time Seed Germination Models in R</h3>
 
 </div>
 
 
 <hr />
-<!-- <center> -->
-<!-- ![](pictures/Mercurialis.JPG){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[sPlot12](https://www.idiv.de/en/sdiv/working_groups/wg_pool/splot/projects.html)</h1> </center> -->
-<!-- <center>`sPlot` is a global repository for plant community data, containing more than 1 million records with full lists of plant species co-occurring in small areas (plots). It provides a big data infrastructure for collaborative biodiversity research. In `sPlot` project #12 we are studying seed ecology in the temperate deciduous forests of the northern hemisphere. We have compiled a global germination dataset to study biome-wide patterns in the regeneration niche.</center> -->
-<!-- --- -->
-<center>
-<p><img src="pictures/Carex.JPG" class="img-circle" style="height:30.0%" /></p>
-</center>
-<center>
-<h1>
-<a href="https://www.researchgate.net/project/NGSeeds-lab">NGSeeds</a>
-</h1>
-</center>
-<center>
-Big data has given plant scientists unprecedented potential to quantify large-scale patterns in plant ecology and evolution. While vegetative traits have been studied in detail, reproductive features such as pollination, dispersal and germination have received less attention. The aim of the <code>NGSeeds</code> (Next Generation Seed Ecology, Evolution and Data Science) virtual research group is to share and synthesize knowledge on functional seeds traits, with the final goal of understanding the role of ecological conditions, evolutionary constraints and biogeographical features in shaping the regenerative niche of plants.
-</center>
-<hr />
-<center>
-<p><img src="pictures/Soldanella.JPG" class="img-circle" style="height:30.0%" /></p>
-</center>
-<center>
-<h1>
-<a href="https://www.alpveg.com/">ALPVEG</a>
-</h1>
-</center>
-<center>
-<code>ALPVEG</code> is a virtual research network for linking projects and researchers dealing with the distribution, diversity and regeneration dynamics of alpine vegetation. Alpine vegetation is the diversity of plant communities that occur above the climatic treeline in world mountains. These ecosystems support high biodiversity value and multiple services. Although alpine plants have attracted naturalists for centuries, we still ignore fundamental patterns and drivers of alpine vegetation within and across regions. In <code>ALPVEG</code> we use observational and experimental data to assess the influence of environmental drivers on alpine plant communities and their dominant or indicator species.
-</center>
-<hr />
-<!-- <center> -->
-<!-- ![](pictures/Malva.jpg){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[SOS Praderas](https://www.sospraderas.eu/en/)</h1> </center> -->
-<!-- <center>`SOS Praderas` (2016-2019) promoted the sustainable management of hay meadows to ensure their conservation. Hay meadows are species-rich semi-natural habitats of great cultural and biological value in Europe. The abandonment of traditional agricultural practices is threatening their survival. `SOS Praderas` contributed to stop the loss of meadow biodiversity through innovative measures such as drafting new agri-environmental subsidies and the marketing of novel products (seed mixes).</center> -->
-<!-- --- -->
-<!-- <center> -->
-<!-- ![](pictures/Spartina.jpg){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[Gedan Lab](http://www.gedanlab.com/)</h1> </center> -->
-<!-- <center>In 2017 I had the opportunity to join the `Gedan lab` at the `George Washington University`, and I got to enjoy a field season in the salt marshes of rural Maryland. We studied the novel plant communities colonizing old agricultural fields that had to be abandoned as a consequence of rising sea level and saltwater intrusion. Read more in <a href="https://www.theatlantic.com/science/archive/2018/03/maryland-salt-farms/554663/">The Atlantic</a> and <a href="https://www.the-scientist.com/features/climate-change-is-killing-east-coast-forests-67149">The Scientist</a>.</center> -->
-<!-- --- -->
-<!-- <center> -->
-<!-- ![](pictures/Lamium.jpg){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[NASSTEC](https://nasstec.eu/home)</h1> </center> -->
-<!-- <center>`NASSTEC` (2014-2017) was a Marie Curie Initial Training Network that trained 11 PhDs in native seed science, conservation and technology. Its goal was to increase European capacities in seed-based environmental restoration.`NASSTEC` connected the public and private sector to establish a multidisciplinary European Doctoral School integrating knowledge in seed biology, plant ecology, molecular biology, conservation, environmental science, crop science and horticulture.</center> -->
-<!-- --- -->
-<!-- <center> -->
-<!-- ![](pictures/Centaurium.jpg){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[Pritchard Lab](https://www.kew.org/science/our-science/departments/comparative-plant-and-fungal-biology/comparative-seed-biology)</h1> </center> -->
-<!-- <center>Between 2015 and 2016 I got a personal grant to join the `Pritchard lab` (Comparative Seed Biology) at the `Royal Botanic Gardens, Kew`. There we studied plant regeneration under climate change, focusing on two aspects: (1) the application of thermal time germination models to simulate germination under climatic scenarios and (2) seed memory, the capacity of seeds to integrate past and present environmental cues to adjust their germination timing.</center> -->
-<!-- --- -->
-<!-- <center> -->
-<!-- ![](pictures/Carex.jpg){width=auto height="30%" .img-circle} -->
-<!-- </center> -->
-<!-- <center> <h1>[Life Tremedal](https://lifetremedal.eu/en/)</h1> </center> -->
-<!-- <center>`Life Tremedal` (2012-2015) improved the state of conservation of Natura 2000 wetlands in the north of the Iberian Peninsula. Continental wetlands, including peat bogs and fens, depend on unique water regimes to survive and provide valuable ecosystem services. `Life Tremedal` implemented conservation actions including the management of livestock grazing and the *ex situ* conservation of seeds.</center> -->
-<!-- --- -->
+<p><img src="pictures/seeds.png" /></p>
+<!-- badges: start -->
+<p><a href="https://travis-ci.com/efernandezpascual/seedr"><img src="https://travis-ci.org/efernandezpascual/seedr.svg?branch=master" alt="Travis build status" /></a> <!-- badges: end --></p>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p><code>seedr</code> is an R package that provides functions to fit hydro and thermal time germination models. These models characterize seed lots by two sets of parameters: (i) the physiological thresholds (water, temperature) between which the seed lot can germinate, and (ii) the physiological-time units that the seed lot needs to accumulate before it can germinate. <code>seedr</code> fits the hydro time model of Bradford (Gummerson 1986, Bradford 1990, Bewley et al. 2013) and the thermal time model of Garcia-Huidobro (Garcia-Huidobro et al. 1982, Gummerson 1986, Bewley et al. 2013). It allows to fit models to grouped datasets, i.e. datasets containing multiple species, seedlots or experiments.</p>
+</div>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<pre class="r"><code># Install stable version from CRAN
+install.packages(&quot;seedr&quot;)
+
+# Install last development version from GitHub
+install.packages(&quot;devtools&quot;) # Install devtools if you don&#39;t have it
+devtools::install_github(&quot;efernandezpascual/seedr&quot;) # Get seedr from GitHub</code></pre>
+</div>
+<div id="usage" class="section level2">
+<h2>Usage</h2>
+<pre class="r"><code>library(seedr)
+# seedr relies on physiotime(), a wrapper function that formats your data and fits a hydro/thermal time model
+physiotime(grasses, # germination dataset
+           x = &quot;psi&quot;, # experimental treatment
+           method = &quot;bradford&quot;, # hydrotime model
+           groups = c(&quot;species&quot;)) # group dataset by species</code></pre>
+<pre><code>## A list of physiological time germination models 
+##  calculated for the following 2 groups: 
+##  
+## species: Anisantha rubens 
+## Bradford&#39;s hydrotime model 
+##  Water potential levels in experiment: -1.6 -1 -0.8 -0.6 -0.4 -0.2 0 
+##  Theta - Hydrotime constant: 50.54 
+##  Psib50 - Base water potential (median): -1.59 
+##  Sigma of the base water potential: 0.4 
+##  R2: 0.94 
+##  
+## species: Bromus hordeaceus 
+## Bradford&#39;s hydrotime model 
+##  Water potential levels in experiment: -1.6 -1 -0.8 -0.6 -0.4 -0.2 0 
+##  Theta - Hydrotime constant: 59.81 
+##  Psib50 - Base water potential (median): -1.75 
+##  Sigma of the base water potential: 0.38 
+##  R2: 0.86 
+## </code></pre>
+<pre class="r"><code># for more information read the seedr vignette
+vignette(&quot;seedr&quot;)</code></pre>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ul>
+<li>Bewley, J. D., Bradford, K. J., Hilhorst, H. W., &amp; Nonogaki, H. (2013). Environmental Control of Germination. In <em>Seeds: Physiology of Development, Germination and Dormancy, 3rd Edition</em> (pp. 302-317). Springer, New York, NY.</li>
+<li>Bradford, K. J. (1990). A water relations analysis of seed germination rates. <em>Plant Physiology</em>, 94(2), 840-849.</li>
+<li>Garcia-Huidobro, J., Monteith, J. L., &amp; Squire, G. R. (1982). Time, temperature and germination of pearl millet (<em>Pennisetum typhoides</em> S. &amp; H.) I. Constant temperature. <em>Journal of Experimental Botany</em>, 33(2), 288-296.</li>
+<li>Gummerson, R. J. (1986). The effect of constant temperatures and osmotic potentials on the germination of sugar beet. <em>Journal of Experimental Botany</em>, 37(6), 729-741.</li>
+</ul>
+</div>
 
 
 
