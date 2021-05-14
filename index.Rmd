@@ -1,5 +1,5 @@
 ---
-title: "Eduardo Fernández-Pascual  ![](pictures/Me.jpg){width=auto height=60 .img-circle}"
+title: "Eduardo Fernández-Pascual  ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
 ---
 
 <center>
