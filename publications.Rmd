@@ -4,17 +4,17 @@ title: "Publications"
 
 ---
 
-> **Fernández-Pascual E**, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A, Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B (2020) [The seed germination spectrum of alpine plants: a global meta-analysis.](https://doi.org/10.1111/nph.17086) *New Phytologist*, in press.
+> **Fernández-Pascual E**, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A, Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B (2020) [The seed germination spectrum of alpine plants: a global meta-analysis.](https://doi.org/10.1111/nph.17086) *New Phytologist* 229, 3573-3586.
 ><a href="https://github.com/efernandezpascual/alpineseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
 
->**Fernández-Pascual E**, Correia-Álvarez E (2020) [Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils.](https://doi.org/10.1002/joc.6893) *International Journal of Climatology*, in press.
+>**Fernández-Pascual E**, Correia-Álvarez E (2020) [Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils.](https://doi.org/10.1002/joc.6893) *International Journal of Climatology* 41, E2949-E2958.
 ><a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
 
->**Fernández-Pascual E** (2020) [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) *Journal of Vegetation Science*, in press.
+>**Fernández-Pascual E** (2020) [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) *Journal of Vegetation Science* 32, e12960.
 ><a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
