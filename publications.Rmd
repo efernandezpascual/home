@@ -4,7 +4,7 @@ title: "Publications"
 
 ---
 
-> Blandino C, **Fernández-Pascual E**, Bueno Á, Pritchard HW (2021) Plant reproductive traits in old and recently-restored temperate forest understories. *Forest Ecology and Management*, in press.
+> Blandino C, **Fernández-Pascual E**, Bueno Á, Pritchard HW (2021) [Plant reproductive traits in old and recently-restored temperate forest understories.](https://doi.org/10.1016/j.foreco.2021.119385) *Forest Ecology and Management* 496, 119385.
 ><a href="https://doi.org/10.6084/m9.figshare.13655990.v1"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
