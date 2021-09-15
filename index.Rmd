@@ -18,6 +18,8 @@ I'm a biologist working on plant ecology and conservation, with a focus on plant
 
 My main study system are the diverse plant communities of the Cantabrian Mountains of Spain, including temperate forests, mires and alpine meadows.
 
+Currently I serve as curator of collections at the [Jardín Botánico Atlántico](https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon) and I am a member of the [Vegetation & Biodiversity Lab](https://jimenezalfaro.weebly.com/) at the IMIB Biodiversity Research Institute, University of Oviedo.
+
 In this website you can find the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Please get in touch for comments or questions about any of these items.
 
 ---

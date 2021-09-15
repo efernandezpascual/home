@@ -4,8 +4,13 @@ title: "Publications"
 
 ---
 
+> Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, **Fernández-Pascual E**, Pritchard HW, Visscher AM (2021) [Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of *Capsella bursa-pastoris* (L.) Medik. (shepherd's purse).](https://doi.org/10.1007/s00709-021-01678-2) *Protoplasma*.
+<a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+
+---
+
 > Blandino C, **Fernández-Pascual E**, Bueno Á, Pritchard HW (2021) [Plant reproductive traits in old and recently-restored temperate forest understories.](https://doi.org/10.1016/j.foreco.2021.119385) *Forest Ecology and Management* 496, 119385.
-><a href="https://doi.org/10.6084/m9.figshare.13655990.v1"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+><a href="https://doi.org/10.6084/m9.figshare.13655990.v1"><img src="icons/Figshare.png" width="25" title="Data & code"/></a>
 
 ---
 
