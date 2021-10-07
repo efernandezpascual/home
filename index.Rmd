@@ -1,5 +1,8 @@
 ---
-title: "Eduardo Fernández-Pascual  ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
+title: "Eduardo Fernández-Pascual ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
+subtitle: "🌱 Seeds 🌿 Plants 🌏 Biodiversity"
+---
+
 ---
 
 <center>
@@ -18,7 +21,7 @@ I'm a biologist working on plant ecology and conservation, with a focus on plant
 
 My main study system are the diverse plant communities of the Cantabrian Mountains of Spain, including temperate forests, mires and alpine meadows.
 
-Currently I serve as curator of collections at the [Jardín Botánico Atlántico](https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon) and I am a member of the [Vegetation & Biodiversity Lab](https://jimenezalfaro.weebly.com/) at the IMIB Biodiversity Research Institute, University of Oviedo.
+Currently I serve as curator at the [Atlantic Botanic Gardens](https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon) and I am a member of the [Vegetation & Biodiversity Lab](https://jimenezalfaro.weebly.com/) at the IMIB Biodiversity Research Institute, University of Oviedo. Please visit the lab's [website](https://jimenezalfaro.weebly.com/) for more information on current research lines and projects.
 
 In this website you can find the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Please get in touch for comments or questions about any of these items.
 
@@ -31,5 +34,12 @@ In this website you can find the datasets and codes of my publications, plus som
 <a href="https://github.com/efernandezpascual"><img src="icons/GitHub.svg" width="25" title="GitHub"/></a>
 <a href="https://orcid.org/0000-0002-4743-9577"><img src="icons/ORCID.png" width="25" title="ORCID"/></a>
 <a href="https://www.researchgate.net/profile/Eduardo_Fernandez-Pascual"><img src="icons/RG.png" width="25" title="ResearchGate"/></a>
+
+</center>
+
+<center>
+
+<a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a>
+<a href="https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon"><img src="icons/jba.jpg" height = 70 title="Atlantic Botanic Gardens"/></a>
 
 </center>

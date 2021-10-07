@@ -1,6 +1,12 @@
 ---
 title: "Publications"
+subtitle: "Texts, data, code"
 ---
+
+---
+
+> Loidi J, Chytrý M, Jiménez-Alfaro B, Alessi N, Biurrun I, Campos JA, Čarni A, **Fernández-Pascual E**, Font Castell X, Gholizadeh H, Indreica A, Kavgacı A, Knollová I, Naqinezhad A, Novák P, Nowak A, Škvorc Ž, Tsiripidis I, Vassilev K, Marcenò C (2021) [Life-form diversity across temperate deciduous forests of Western Eurasia: a different story in the understory.](https://doi.org/10.1111/jbi.14254) *Journal of Biogeography*.
+<a href="pdf/jbi.14254.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
 ---
 
