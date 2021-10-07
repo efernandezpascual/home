@@ -1,6 +1,5 @@
 ---
 title: "Eduardo Fernández-Pascual ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
-subtitle: "🌱 Seeds 🌿 Plants 🌏 Biodiversity"
 ---
 
 ---
