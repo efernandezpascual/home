@@ -2,8 +2,6 @@
 title: "Eduardo Fernández-Pascual ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
 ---
 
----
-
 <center>
 
 ![](pictures/Retriñón.JPG){width="100%" height=auto}
