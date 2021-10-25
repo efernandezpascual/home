@@ -32,11 +32,13 @@ subtitle: "Texts, data, code"
 
 >**Fernández-Pascual E**, Correia-Álvarez E (2021) [Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils.](https://doi.org/10.1002/joc.6893) *International Journal of Climatology* 41, E2949-E2958.
 ><a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+><a href="pdf/IJOC 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a>
 
 ---
 
 >**Fernández-Pascual E** (2021) [SylvanSeeds, a seed germination database for temperate deciduous forests.](https://doi.org/10.1111/jvs.12960) *Journal of Vegetation Science* 32, e12960.
 ><a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+><a href="pdf/JVS 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a>
 
 ---
 
