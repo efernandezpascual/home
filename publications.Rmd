@@ -11,7 +11,7 @@ subtitle: "Texts, data, code"
 ---
 
 > Jiménez-Alfaro B, Carlón L, **Fernández-Pascual E**, Acedo C, Alfaro-Saiz E, Alonso Redondo R, Cires E, Del Egido Mazuelas F, Del Río S, Díaz González TE, García González ME, Lence C, Llamas F, Nava HS, Penas Á, Rodríguez Guitián MA, Vázquez VM (2021) [Checklist of the vascular plants of the Cantabrian Mountains.](https://doi.org/10.5209/mbot.74570) *Mediterranean Botany* 42, e74570. 
-<a href="pdf/74570-Article Text-4564456625592-1-10-20211027.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+<a href="pdf/Jiménez-Alfaro et al. 2021 - Mediterranean Botany.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
 ---
 
