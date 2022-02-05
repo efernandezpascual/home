@@ -5,7 +5,15 @@ subtitle: "Texts, data, code"
 
 ---
 
-> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2021) [Seed germination ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany*.
+> Blandino C, **Fernández-Pascual E**, Newton RJ, Pritchard HW (2022) [Regeneration from seed in herbaceous understory of ancient woodlands of temperate Europe.](https://doi.org/10.1093/aob/mcac003) *Annals of Botany*.
+
+---
+
+> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E** *et al*. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology*.
+
+---
+
+> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2022) [Seed germination ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
 <a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
