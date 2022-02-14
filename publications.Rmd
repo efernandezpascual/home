@@ -13,7 +13,7 @@ subtitle: "Texts, data, code"
 
 ---
 
-> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2022) [Seed germination ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
+> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2022) [Seed ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
 <a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
