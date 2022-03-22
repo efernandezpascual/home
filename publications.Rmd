@@ -13,7 +13,7 @@ subtitle: "Texts, data, code"
 
 ---
 
-> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E** *et al*. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology*.
+> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E**, [...], Lenoir J. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology*.
 
 ---
 
