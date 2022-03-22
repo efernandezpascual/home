@@ -5,6 +5,10 @@ subtitle: "Texts, data, code"
 
 ---
 
+> Carta A, **Fernández-Pascual E**, Gioria M, Müller JV, Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) [Climate shapes the seed germination niche of temperate flowering plants: a meta-analysis of European seed conservation data.](https://doi.org/10.1093/aob/mcac037) *Annals of Botany*.
+
+---
+
 > Blandino C, **Fernández-Pascual E**, Newton RJ, Pritchard HW (2022) [Regeneration from seed in herbaceous understory of ancient woodlands of temperate Europe.](https://doi.org/10.1093/aob/mcac003) *Annals of Botany*.
 
 ---
