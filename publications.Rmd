@@ -5,6 +5,11 @@ subtitle: "Texts, data, code"
 
 ---
 
+> Mattana E, Carta A, **Fernández-Pascual E**, Keeley J, Pritchard HW (2022) [Climate change and plant regeneration from seeds in
+Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-0-12-823731-1.00015-9) Chapter 8 in: Baskin C, Baskin J (eds.) *Plant Regeneration from Seeds: A Global Warming Perspective.* Academic Press, Elsevier. 21 pp.
+
+---
+
 > Carta A, **Fernández-Pascual E**, Gioria M, Müller JV, Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) [Climate shapes the seed germination niche of temperate flowering plants: a meta-analysis of European seed conservation data.](https://doi.org/10.1093/aob/mcac037) *Annals of Botany*.
 
 ---
