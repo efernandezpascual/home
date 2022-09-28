@@ -28,7 +28,7 @@ In this website you can find the datasets and codes of my publications, plus som
 
 <center>
 
-<a href="mailto:efernandezpascual@gmail.com"><img src="icons/Gmail.png" width="25" title="Email me"/></a>
+<a href="mailto:fernandezpeduardo@uniovi.es"><img src="icons/Gmail.png" width="25" title="Email me"/></a>
 <a href="https://scholar.google.com/citations?user=1DSeLw0AAAAJ&hl=en"><img src="icons/Google Scholar.png" width="25" title="Google Scholar"/></a>
 <a href="https://github.com/efernandezpascual"><img src="icons/GitHub.svg" width="25" title="GitHub"/></a>
 <a href="https://orcid.org/0000-0002-4743-9577"><img src="icons/ORCID.png" width="25" title="ORCID"/></a>
