@@ -13,8 +13,8 @@
 
 <title>Networks</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -232,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -279,7 +287,8 @@ $(document).ready(function () {
 <!-- <center>`sPlot` is a global repository for plant community data, containing more than 1 million records with full lists of plant species co-occurring in small areas (plots). It provides a big data infrastructure for collaborative biodiversity research. In `sPlot` project #12 we are studying seed ecology in the temperate deciduous forests of the northern hemisphere. We have compiled a global germination dataset to study biome-wide patterns in the regeneration niche.</center> -->
 <!-- --- -->
 <center>
-<p><img src="pictures/Carex.JPG" class="img-circle" style="height:30.0%" /></p>
+<p><img src="pictures/Carex.JPG" class="img-circle"
+style="height:30.0%" /></p>
 </center>
 <center>
 <h1>
@@ -287,11 +296,21 @@ $(document).ready(function () {
 </h1>
 </center>
 <center>
-Big data has given plant scientists unprecedented potential to quantify large-scale patterns in plant ecology and evolution. While vegetative traits have been studied in detail, reproductive features such as pollination, dispersal and germination have received less attention. The aim of the <code>NGSeeds</code> (Next Generation Seed Ecology, Evolution and Data Science) virtual research group is to share and synthesize knowledge on functional seeds traits, with the final goal of understanding the role of ecological conditions, evolutionary constraints and biogeographical features in shaping the regenerative niche of plants.
+Big data has given plant scientists unprecedented potential to quantify
+large-scale patterns in plant ecology and evolution. While vegetative
+traits have been studied in detail, reproductive features such as
+pollination, dispersal and germination have received less attention. The
+aim of the <code>NGSeeds</code> (Next Generation Seed Ecology, Evolution
+and Data Science) virtual research group is to share and synthesize
+knowledge on functional seeds traits, with the final goal of
+understanding the role of ecological conditions, evolutionary
+constraints and biogeographical features in shaping the regenerative
+niche of plants.
 </center>
 <hr />
 <center>
-<p><img src="pictures/Soldanella.JPG" class="img-circle" style="height:30.0%" /></p>
+<p><img src="pictures/Soldanella.JPG" class="img-circle"
+style="height:30.0%" /></p>
 </center>
 <center>
 <h1>
@@ -299,7 +318,17 @@ Big data has given plant scientists unprecedented potential to quantify large-sc
 </h1>
 </center>
 <center>
-<code>ALPVEG</code> is a virtual research network for linking projects and researchers dealing with the distribution, diversity and regeneration dynamics of alpine vegetation. Alpine vegetation is the diversity of plant communities that occur above the climatic treeline in world mountains. These ecosystems support high biodiversity value and multiple services. Although alpine plants have attracted naturalists for centuries, we still ignore fundamental patterns and drivers of alpine vegetation within and across regions. In <code>ALPVEG</code> we use observational and experimental data to assess the influence of environmental drivers on alpine plant communities and their dominant or indicator species.
+<code>ALPVEG</code> is a virtual research network for linking projects
+and researchers dealing with the distribution, diversity and
+regeneration dynamics of alpine vegetation. Alpine vegetation is the
+diversity of plant communities that occur above the climatic treeline in
+world mountains. These ecosystems support high biodiversity value and
+multiple services. Although alpine plants have attracted naturalists for
+centuries, we still ignore fundamental patterns and drivers of alpine
+vegetation within and across regions. In <code>ALPVEG</code> we use
+observational and experimental data to assess the influence of
+environmental drivers on alpine plant communities and their dominant or
+indicator species.
 </center>
 <hr />
 <!-- <center> -->

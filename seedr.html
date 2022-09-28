@@ -13,8 +13,8 @@
 
 <title>seedr</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -232,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -266,7 +274,8 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">seedr</h1>
-<h3 class="subtitle">Hydro and Thermal Time Seed Germination Models in R</h3>
+<h3 class="subtitle">Hydro and Thermal Time Seed Germination Models in
+R</h3>
 
 </div>
 
@@ -274,10 +283,22 @@ $(document).ready(function () {
 <hr />
 <p><img src="pictures/seeds.png" /></p>
 <!-- badges: start -->
-<p><a href="https://travis-ci.com/efernandezpascual/seedr"><img src="https://travis-ci.org/efernandezpascual/seedr.svg?branch=master" alt="Travis build status" /></a> <!-- badges: end --></p>
+<p><a href="https://travis-ci.com/efernandezpascual/seedr"><img
+src="https://travis-ci.org/efernandezpascual/seedr.svg?branch=master"
+alt="Travis build status" /></a> <!-- badges: end --></p>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p><code>seedr</code> is an R package that provides functions to fit hydro and thermal time germination models. These models characterize seed lots by two sets of parameters: (i) the physiological thresholds (water, temperature) between which the seed lot can germinate, and (ii) the physiological-time units that the seed lot needs to accumulate before it can germinate. <code>seedr</code> fits the hydro time model of Bradford (Gummerson 1986, Bradford 1990, Bewley et al. 2013) and the thermal time model of Garcia-Huidobro (Garcia-Huidobro et al. 1982, Gummerson 1986, Bewley et al. 2013). It allows to fit models to grouped datasets, i.e. datasets containing multiple species, seedlots or experiments.</p>
+<p><code>seedr</code> is an R package that provides functions to fit
+hydro and thermal time germination models. These models characterize
+seed lots by two sets of parameters: (i) the physiological thresholds
+(water, temperature) between which the seed lot can germinate, and (ii)
+the physiological-time units that the seed lot needs to accumulate
+before it can germinate. <code>seedr</code> fits the hydro time model of
+Bradford (Gummerson 1986, Bradford 1990, Bewley et al. 2013) and the
+thermal time model of Garcia-Huidobro (Garcia-Huidobro et al. 1982,
+Gummerson 1986, Bewley et al. 2013). It allows to fit models to grouped
+datasets, i.e. datasets containing multiple species, seedlots or
+experiments.</p>
 </div>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
@@ -321,10 +342,19 @@ vignette(&quot;seedr&quot;)</code></pre>
 <div id="references" class="section level2">
 <h2>References</h2>
 <ul>
-<li>Bewley, J. D., Bradford, K. J., Hilhorst, H. W., &amp; Nonogaki, H. (2013). Environmental Control of Germination. In <em>Seeds: Physiology of Development, Germination and Dormancy, 3rd Edition</em> (pp. 302-317). Springer, New York, NY.</li>
-<li>Bradford, K. J. (1990). A water relations analysis of seed germination rates. <em>Plant Physiology</em>, 94(2), 840-849.</li>
-<li>Garcia-Huidobro, J., Monteith, J. L., &amp; Squire, G. R. (1982). Time, temperature and germination of pearl millet (<em>Pennisetum typhoides</em> S. &amp; H.) I. Constant temperature. <em>Journal of Experimental Botany</em>, 33(2), 288-296.</li>
-<li>Gummerson, R. J. (1986). The effect of constant temperatures and osmotic potentials on the germination of sugar beet. <em>Journal of Experimental Botany</em>, 37(6), 729-741.</li>
+<li>Bewley, J. D., Bradford, K. J., Hilhorst, H. W., &amp; Nonogaki, H.
+(2013). Environmental Control of Germination. In <em>Seeds: Physiology
+of Development, Germination and Dormancy, 3rd Edition</em>
+(pp. 302-317). Springer, New York, NY.</li>
+<li>Bradford, K. J. (1990). A water relations analysis of seed
+germination rates. <em>Plant Physiology</em>, 94(2), 840-849.</li>
+<li>Garcia-Huidobro, J., Monteith, J. L., &amp; Squire, G. R. (1982).
+Time, temperature and germination of pearl millet (<em>Pennisetum
+typhoides</em> S. &amp; H.) I. Constant temperature. <em>Journal of
+Experimental Botany</em>, 33(2), 288-296.</li>
+<li>Gummerson, R. J. (1986). The effect of constant temperatures and
+osmotic potentials on the germination of sugar beet. <em>Journal of
+Experimental Botany</em>, 37(6), 729-741.</li>
 </ul>
 </div>
 

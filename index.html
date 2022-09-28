@@ -13,8 +13,8 @@
 
 <title>Eduardo Fernández-Pascual </title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -232,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -265,29 +273,60 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Eduardo Fernández-Pascual <img src="pictures/Loder.jpg" class="img-circle" height="60" /></h1>
+<h1 class="title toc-ignore">Eduardo Fernández-Pascual <img
+src="pictures/oma%C3%B1a.jpg" class="img-circle" height="60" /></h1>
 
 </div>
 
 
 <center>
-<p><img src="pictures/Retriñón.JPG" style="width:100.0%" /></p>
+<p><img src="pictures/Retri%C3%B1%C3%B3n.JPG" style="width:100.0%" /></p>
 </center>
-<p>I’m a biologist working on plant ecology and conservation, with a focus on plant regeneration by seed:</p>
+<p>I’m an assistant professor of Botany at the University of Oviedo
+(Asturies, Spain) and I do research on plant ecology:</p>
 <ul>
-<li><p>The environmental control of seed germination timing in wild species, and how this control is affected by climatic changes.</p></li>
-<li><p>The patterns and drivers of seed diversity across species and communities.</p></li>
-<li><p>The application of seed science in plant conservation and ecological restoration.</p></li>
+<li><p><em>Functional seed ecology of plant communities</em>. How plant
+regeneration by seed varies at different environmental scales, from
+macroecological patterns at the biome level, to microhabitat effects at
+the plot level. How these trait-environment relationships drive the
+distribution and persistence of plant diversity.</p></li>
+<li><p><em>Plant responses to climate change</em>. How plants
+acclimatize and adapt to climate change and related global change
+aspects such as sea level rise and land use change, with a special focus
+on (but not limited to) responses in regeneration by seed.</p></li>
+<li><p><em>Soil microclimate</em>. How climate varies at microscales
+within the soil, and how this variation is driven by factors such as
+waterlogging or snow cover.</p></li>
 </ul>
-<p>My main study system are the diverse plant communities of the Cantabrian Mountains of Spain, including temperate forests, mires and alpine meadows.</p>
-<p>Currently I serve as curator at the <a href="https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon">Atlantic Botanic Garden</a> and I am a member of the <a href="https://jimenezalfaro.weebly.com/">Vegetation &amp; Biodiversity Lab</a> at the IMIB Biodiversity Research Institute, University of Oviedo. Please visit the lab’s website for more information on current research lines and projects.</p>
-<p>In this website you can find the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Please get in touch for comments or questions about any of these items.</p>
+<p>My main study systems are the diverse plant communities of the <a
+href="https://www.oneearth.org/ecoregions/cantabrian-mixed-forests/">Cantabrian
+ecoregion</a> of Spain, including temperate forests, mires, alpine
+meadows, coastal habitats &amp; urban and postindustrial ecosystems.</p>
+<p>Currently I serve as curator at the <a
+href="https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon">Atlantic
+Botanic Garden</a> and I am a member of the <a
+href="https://jimenezalfaro.weebly.com/">Vegetation &amp; Biodiversity
+Lab</a>, University of Oviedo. Please visit the lab’s website for more
+information on current research lines and projects.</p>
+<p>Also check out the <a
+href="https://efernandezpascual.github.io/seedarc/index.html">SeedArc</a>
+initiative to build a global archive of primary seed germination
+data.</p>
+<p>In this website you can find the datasets and codes of my
+publications, plus some research tools, like the SylvanSeeds database
+and the seedr R package. Do get in touch for comments or questions about
+any of these items.</p>
 <hr />
 <center>
-<p><a href="mailto:efernandezpascual@gmail.com"><img src="icons/Gmail.png" width="25" title="Email me"/></a> <a href="https://scholar.google.com/citations?user=1DSeLw0AAAAJ&hl=en"><img src="icons/Google%20Scholar.png" width="25" title="Google Scholar"/></a> <a href="https://github.com/efernandezpascual"><img src="icons/GitHub.svg" width="25" title="GitHub"/></a> <a href="https://orcid.org/0000-0002-4743-9577"><img src="icons/ORCID.png" width="25" title="ORCID"/></a> <a href="https://www.researchgate.net/profile/Eduardo_Fernandez-Pascual"><img src="icons/RG.png" width="25" title="ResearchGate"/></a></p>
+<p><a href="mailto:efernandezpascual@gmail.com"><img src="icons/Gmail.png" width="25" title="Email me"/></a>
+<a href="https://scholar.google.com/citations?user=1DSeLw0AAAAJ&hl=en"><img src="icons/Google%20Scholar.png" width="25" title="Google Scholar"/></a>
+<a href="https://github.com/efernandezpascual"><img src="icons/GitHub.svg" width="25" title="GitHub"/></a>
+<a href="https://orcid.org/0000-0002-4743-9577"><img src="icons/ORCID.png" width="25" title="ORCID"/></a>
+<a href="https://www.researchgate.net/profile/Eduardo_Fernandez-Pascual"><img src="icons/RG.png" width="25" title="ResearchGate"/></a></p>
 </center>
 <center>
-<p><a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a> <a href="https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon"><img src="icons/jba.jpg" height = 70 title="Atlantic Botanic Gardens"/></a></p>
+<p><a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a>
+<a href="https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon"><img src="icons/jba.jpg" height = 70 title="Atlantic Botanic Gardens"/></a></p>
 </center>
 
 

@@ -5,20 +5,24 @@ subtitle: "Texts, data, code"
 
 ---
 
+> Rosbakh S, **Fernández-Pascual E**, Mondoni A, Onipchenko V (2022) [Alpine plant communities differ in their seed germination requirements along a snowmelt gradient in the Caucasus.](https://doi.org/10.1007/s00035-022-00286-x) *Alpine Botany*.
+
+---
+
 > Mattana E, Carta A, **Fernández-Pascual E**, Keeley J, Pritchard HW (2022) [Climate change and plant regeneration from seeds in
 Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-0-12-823731-1.00015-9) Chapter 8 in: Baskin C, Baskin J (eds.) *Plant Regeneration from Seeds: A Global Warming Perspective.* Academic Press, Elsevier. 21 pp.
 
 ---
 
-> Carta A, **Fernández-Pascual E**, Gioria M, Müller JV, Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) [Climate shapes the seed germination niche of temperate flowering plants: a meta-analysis of European seed conservation data.](https://doi.org/10.1093/aob/mcac037) *Annals of Botany*.
+> Carta A, **Fernández-Pascual E**, Gioria M, Müller JV, Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) [Climate shapes the seed germination niche of temperate flowering plants: a meta-analysis of European seed conservation data.](https://doi.org/10.1093/aob/mcac037) *Annals of Botany* 129, 775–786.
 
 ---
 
-> Blandino C, **Fernández-Pascual E**, Newton RJ, Pritchard HW (2022) [Regeneration from seed in herbaceous understory of ancient woodlands of temperate Europe.](https://doi.org/10.1093/aob/mcac003) *Annals of Botany*.
+> Blandino C, **Fernández-Pascual E**, Newton RJ, Pritchard HW (2022) [Regeneration from seed in herbaceous understory of ancient woodlands of temperate Europe.](https://doi.org/10.1093/aob/mcac003) *Annals of Botany* 129, 761–774.
 
 ---
 
-> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E**, [...], Lenoir J. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology*.
+> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E**, [...], Lenoir J. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology* 28, 3110-3144.
 
 ---
 
@@ -37,7 +41,7 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 
 ---
 
-> Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, **Fernández-Pascual E**, Pritchard HW, Visscher AM (2021) [Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of *Capsella bursa-pastoris* (L.) Medik. (shepherd's purse).](https://doi.org/10.1007/s00709-021-01678-2) *Protoplasma*.
+> Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, **Fernández-Pascual E**, Pritchard HW, Visscher AM (2021) [Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of *Capsella bursa-pastoris* (L.) Medik. (shepherd's purse).](https://doi.org/10.1007/s00709-021-01678-2) *Protoplasma* 259, 595–614.
 <a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
 ---

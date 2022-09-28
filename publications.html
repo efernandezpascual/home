@@ -13,8 +13,8 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -232,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -273,123 +281,276 @@ $(document).ready(function () {
 
 <hr />
 <blockquote>
-<p>Mattana E, Carta A, <strong>Fernández-Pascual E</strong>, Keeley J, Pritchard HW (2022) <a href="https://doi.org/10.1016/B978-0-12-823731-1.00015-9">Climate change and plant regeneration from seeds in Mediterranean regions of the Northern Hemisphere.</a> Chapter 8 in: Baskin C, Baskin J (eds.) <em>Plant Regeneration from Seeds: A Global Warming Perspective.</em> Academic Press, Elsevier. 21 pp.</p>
+<p>Rosbakh S, <strong>Fernández-Pascual E</strong>, Mondoni A,
+Onipchenko V (2022) <a
+href="https://doi.org/10.1007/s00035-022-00286-x">Alpine plant
+communities differ in their seed germination requirements along a
+snowmelt gradient in the Caucasus.</a> <em>Alpine Botany</em>.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Carta A, <strong>Fernández-Pascual E</strong>, Gioria M, Müller JV, Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) <a href="https://doi.org/10.1093/aob/mcac037">Climate shapes the seed germination niche of temperate flowering plants: a meta-analysis of European seed conservation data.</a> <em>Annals of Botany</em>.</p>
+<p>Mattana E, Carta A, <strong>Fernández-Pascual E</strong>, Keeley J,
+Pritchard HW (2022) <a
+href="https://doi.org/10.1016/B978-0-12-823731-1.00015-9">Climate change
+and plant regeneration from seeds in Mediterranean regions of the
+Northern Hemisphere.</a> Chapter 8 in: Baskin C, Baskin J (eds.)
+<em>Plant Regeneration from Seeds: A Global Warming Perspective.</em>
+Academic Press, Elsevier. 21 pp.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Blandino C, <strong>Fernández-Pascual E</strong>, Newton RJ, Pritchard HW (2022) <a href="https://doi.org/10.1093/aob/mcac003">Regeneration from seed in herbaceous understory of ancient woodlands of temperate Europe.</a> <em>Annals of Botany</em>.</p>
+<p>Carta A, <strong>Fernández-Pascual E</strong>, Gioria M, Müller JV,
+Rivière S, Rosbakh S, Saatkamp A, Vandelook F, Mattana E (2022) <a
+href="https://doi.org/10.1093/aob/mcac037">Climate shapes the seed
+germination niche of temperate flowering plants: a meta-analysis of
+European seed conservation data.</a> <em>Annals of Botany</em> 129,
+775–786.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, […], <strong>Fernández-Pascual E</strong>, […], Lenoir J. (2022) <a href="https://doi.org/10.1111/gcb.16060">Global maps of soil temperature.</a> <em>Global Change Biology</em>.</p>
+<p>Blandino C, <strong>Fernández-Pascual E</strong>, Newton RJ,
+Pritchard HW (2022) <a
+href="https://doi.org/10.1093/aob/mcac003">Regeneration from seed in
+herbaceous understory of ancient woodlands of temperate Europe.</a>
+<em>Annals of Botany</em> 129, 761–774.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2022) <a href="https://dx.doi.org/10.1093/aob/mcab135">Seed ecology of European mesic meadows.</a> <em>Annals of Botany</em> 129, 121–134. <a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a></p>
+<p>Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P,
+Kemppinen J, Kopecký M, […], <strong>Fernández-Pascual E</strong>, […],
+Lenoir J. (2022) <a href="https://doi.org/10.1111/gcb.16060">Global maps
+of soil temperature.</a> <em>Global Change Biology</em> 28,
+3110-3144.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Jiménez-Alfaro B, Carlón L, <strong>Fernández-Pascual E</strong>, Acedo C, Alfaro-Saiz E, Alonso Redondo R, Cires E, Del Egido Mazuelas F, Del Río S, Díaz González TE, García González ME, Lence C, Llamas F, Nava HS, Penas Á, Rodríguez Guitián MA, Vázquez VM (2021) <a href="https://doi.org/10.5209/mbot.74570">Checklist of the vascular plants of the Cantabrian Mountains.</a> <em>Mediterranean Botany</em> 42, e74570. <a href="pdf/Jiménez-Alfaro et al. 2021 - Mediterranean Botany.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Vaz M, Morais B, Reiné R,
+Ascaso J, Afif Khouri E, Carta A. (2022) <a
+href="https://dx.doi.org/10.1093/aob/mcab135">Seed ecology of European
+mesic meadows.</a> <em>Annals of Botany</em> 129, 121–134.
+<a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Loidi J, Chytrý M, Jiménez-Alfaro B, Alessi N, Biurrun I, Campos JA, Čarni A, <strong>Fernández-Pascual E</strong>, Font Castell X, Gholizadeh H, Indreica A, Kavgacı A, Knollová I, Naqinezhad A, Novák P, Nowak A, Škvorc Ž, Tsiripidis I, Vassilev K, Marcenò C (2021) <a href="https://doi.org/10.1111/jbi.14254">Life-form diversity across temperate deciduous forests of Western Eurasia: a different story in the understory.</a> <em>Journal of Biogeography</em> 48, 2932-2945. <a href="pdf/jbi.14254.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
+<p>Jiménez-Alfaro B, Carlón L, <strong>Fernández-Pascual E</strong>,
+Acedo C, Alfaro-Saiz E, Alonso Redondo R, Cires E, Del Egido Mazuelas F,
+Del Río S, Díaz González TE, García González ME, Lence C, Llamas F, Nava
+HS, Penas Á, Rodríguez Guitián MA, Vázquez VM (2021) <a
+href="https://doi.org/10.5209/mbot.74570">Checklist of the vascular
+plants of the Cantabrian Mountains.</a> <em>Mediterranean Botany</em>
+42, e74570.
+<a href="pdf/Jiménez-Alfaro et al. 2021 - Mediterranean Botany.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, <strong>Fernández-Pascual E</strong>, Pritchard HW, Visscher AM (2021) <a href="https://doi.org/10.1007/s00709-021-01678-2">Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of <em>Capsella bursa-pastoris</em> (L.) Medik. (shepherd’s purse).</a> <em>Protoplasma</em>. <a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
+<p>Loidi J, Chytrý M, Jiménez-Alfaro B, Alessi N, Biurrun I, Campos JA,
+Čarni A, <strong>Fernández-Pascual E</strong>, Font Castell X,
+Gholizadeh H, Indreica A, Kavgacı A, Knollová I, Naqinezhad A, Novák P,
+Nowak A, Škvorc Ž, Tsiripidis I, Vassilev K, Marcenò C (2021) <a
+href="https://doi.org/10.1111/jbi.14254">Life-form diversity across
+temperate deciduous forests of Western Eurasia: a different story in the
+understory.</a> <em>Journal of Biogeography</em> 48, 2932-2945.
+<a href="pdf/jbi.14254.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Blandino C, <strong>Fernández-Pascual E</strong>, Bueno Á, Pritchard HW (2021) <a href="https://doi.org/10.1016/j.foreco.2021.119385">Plant reproductive traits in old and recently-restored temperate forest understories.</a> <em>Forest Ecology and Management</em> 496, 119385. <a href="https://doi.org/10.6084/m9.figshare.13655990.v1"><img src="icons/Figshare.png" width="25" title="Data & code"/></a></p>
+<p>Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P,
+<strong>Fernández-Pascual E</strong>, Pritchard HW, Visscher AM (2021)
+<a href="https://doi.org/10.1007/s00709-021-01678-2">Global DNA
+methylation and cellular 5-methylcytosine and H4 acetylated patterns in
+primary and secondary dormant seeds of <em>Capsella bursa-pastoris</em>
+(L.) Medik. (shepherd’s purse).</a> <em>Protoplasma</em> 259, 595–614.
+<a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A, Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B (2021) <a href="https://doi.org/10.1111/nph.17086">The seed germination spectrum of alpine plants: a global meta-analysis.</a> <em>New Phytologist</em> 229, 3573-3586. <a href="https://github.com/efernandezpascual/alpineseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a></p>
+<p>Blandino C, <strong>Fernández-Pascual E</strong>, Bueno Á, Pritchard
+HW (2021) <a href="https://doi.org/10.1016/j.foreco.2021.119385">Plant
+reproductive traits in old and recently-restored temperate forest
+understories.</a> <em>Forest Ecology and Management</em> 496, 119385.
+<a href="https://doi.org/10.6084/m9.figshare.13655990.v1"><img src="icons/Figshare.png" width="25" title="Data & code"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Correia-Álvarez E (2021) <a href="https://doi.org/10.1002/joc.6893">Mire microclimate: groundwater buffers temperature in waterlogged versus dry soils.</a> <em>International Journal of Climatology</em> 41, E2949-E2958. <a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a> <a href="pdf/IJOC 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Carta A, Mondoni A, Cavieres L,
+Rosbakh S, Venn S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana
+E, Saatkamp A, Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A,
+Jiménez-Alfaro B (2021) <a href="https://doi.org/10.1111/nph.17086">The
+seed germination spectrum of alpine plants: a global meta-analysis.</a>
+<em>New Phytologist</em> 229, 3573-3586.
+<a href="https://github.com/efernandezpascual/alpineseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong> (2021) <a href="https://doi.org/10.1111/jvs.12960">SylvanSeeds, a seed germination database for temperate deciduous forests.</a> <em>Journal of Vegetation Science</em> 32, e12960. <a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a> <a href="pdf/JVS 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Correia-Álvarez E (2021) <a
+href="https://doi.org/10.1002/joc.6893">Mire microclimate: groundwater
+buffers temperature in waterlogged versus dry soils.</a>
+<em>International Journal of Climatology</em> 41, E2949-E2958.
+<a href="https://github.com/efernandezpascual/mires"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+<a href="pdf/IJOC 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Mattana E, Pritchard HW (2019) <a href="http://dx.doi.org/10.1111/brv.12461">Seeds of future past: climate change and the thermal memory of plant reproductive traits.</a> <em>Biological Reviews</em> 94, 439-456. <a href="pdf/Fernández-Pascual et al. 2019 - Biol Reviews.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong> (2021) <a
+href="https://doi.org/10.1111/jvs.12960">SylvanSeeds, a seed germination
+database for temperate deciduous forests.</a> <em>Journal of Vegetation
+Science</em> 32, e12960.
+<a href="https://github.com/efernandezpascual/sylvanseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+<a href="pdf/JVS 2021.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Gedan KB, <strong>Fernández-Pascual E</strong> (2019) <a href="http://doi.org/10.1111/jvs.12774">Salt marsh migration into salinized agricultural fields: a novel assembly of plant communities.</a> <em>Journal of Vegetation Science</em> 30, 1007-1016.</p>
+<p><strong>Fernández-Pascual E</strong>, Mattana E, Pritchard HW (2019)
+<a href="http://dx.doi.org/10.1111/brv.12461">Seeds of future past:
+climate change and the thermal memory of plant reproductive traits.</a>
+<em>Biological Reviews</em> 94, 439-456.
+<a href="pdf/Fernández-Pascual et al. 2019 - Biol Reviews.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Blandino C, <strong>Fernández-Pascual E</strong>, Marin M, Vernet A, Pritchard HW (2019) <a href="http://dx.doi.org/10.1111/plb.12872">Seed ecology of the geophyte <em>Conopodium majus</em> (Apiaceae), indicator species of ancient woodland understories and oligotrophic meadows.</a> <em>Plant Biology</em> 21, 487-497.</p>
+<p>Gedan KB, <strong>Fernández-Pascual E</strong> (2019) <a
+href="http://doi.org/10.1111/jvs.12774">Salt marsh migration into
+salinized agricultural fields: a novel assembly of plant
+communities.</a> <em>Journal of Vegetation Science</em> 30,
+1007-1016.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Frischie S, <strong>Fernández-Pascual E</strong>, Gálvez Ramírez C, Toorop P, Hernández González M, Jiménez-Alfaro B (2019) <a href="http://dx.doi.org/10.1111/plb.12848">Hydrothermal thresholds for seed germination in winter annual forbs from old-field Mediterranean landscapes.</a> <em>Plant Biology</em> 21, 449-457.</p>
+<p>Blandino C, <strong>Fernández-Pascual E</strong>, Marin M, Vernet A,
+Pritchard HW (2019) <a href="http://dx.doi.org/10.1111/plb.12872">Seed
+ecology of the geophyte <em>Conopodium majus</em> (Apiaceae), indicator
+species of ancient woodland understories and oligotrophic meadows.</a>
+<em>Plant Biology</em> 21, 487-497.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Jiménez-Alfaro B, Hernández González M, <strong>Fernández-Pascual E</strong>, Toorop P, Frischie S, Gálvez Ramírez C (2018) <a href="http://dx.doi.org/10.1016/j.agee.2018.04.013">Germination ecology of winter annual grasses in Mediterranean climates: applications for soil cover in olive groves.</a> <em>Agriculture, Ecosystems and Environment</em> 262, 29-35.</p>
+<p>Frischie S, <strong>Fernández-Pascual E</strong>, Gálvez Ramírez C,
+Toorop P, Hernández González M, Jiménez-Alfaro B (2019) <a
+href="http://dx.doi.org/10.1111/plb.12848">Hydrothermal thresholds for
+seed germination in winter annual forbs from old-field Mediterranean
+landscapes.</a> <em>Plant Biology</em> 21, 449-457.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>García-Gutiérrez T, Jiménez-Alfaro B, <strong>Fernández-Pascual E</strong>, Müller JV (2018) <a href="http://dx.doi.org/10.1127/phyto/2017/0224">Functional diversity and ecological requirements of alpine vegetation types co-occurring in a biogeographical transition zone.</a> <em>Phytocoenologia</em> 48, 77-89.</p>
+<p>Jiménez-Alfaro B, Hernández González M, <strong>Fernández-Pascual
+E</strong>, Toorop P, Frischie S, Gálvez Ramírez C (2018) <a
+href="http://dx.doi.org/10.1016/j.agee.2018.04.013">Germination ecology
+of winter annual grasses in Mediterranean climates: applications for
+soil cover in olive groves.</a> <em>Agriculture, Ecosystems and
+Environment</em> 262, 29-35.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Tudela-Isanta M, <strong>Fernández-Pascual E</strong>, Pritchard HW, Wijayasinghe M, Orsenigo S, Rossi G, Mondoni A (2018) <a href="http://dx.doi.org/10.1002/ece3.3539">Habitat-related seed germination traits in alpine habitats.</a> <em>Ecology and Evolution</em> 8, 150-161. <a href="pdf/Tudela-Isanta_et_al-2018-Ecology_and_Evolution.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
+<p>García-Gutiérrez T, Jiménez-Alfaro B, <strong>Fernández-Pascual
+E</strong>, Müller JV (2018) <a
+href="http://dx.doi.org/10.1127/phyto/2017/0224">Functional diversity
+and ecological requirements of alpine vegetation types co-occurring in a
+biogeographical transition zone.</a> <em>Phytocoenologia</em> 48,
+77-89.</p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Pérez-Arcoiza A, Prieto JA, Díaz TE (2017) <a href="http://dx.doi.org/10.1093/aob/mcx005">Environmental filtering drives the shape and breadth of the seed germination niche in coastal plant communities.</a> <em>Annals of Botany</em> 119, 1169-1177. <a href="pdf/Fernández-Pascual et al. 2017 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p>Tudela-Isanta M, <strong>Fernández-Pascual E</strong>, Pritchard HW,
+Wijayasinghe M, Orsenigo S, Rossi G, Mondoni A (2018) <a
+href="http://dx.doi.org/10.1002/ece3.3539">Habitat-related seed
+germination traits in alpine habitats.</a> <em>Ecology and
+Evolution</em> 8, 150-161.
+<a href="pdf/Tudela-Isanta_et_al-2018-Ecology_and_Evolution.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Bueno A (2017) <a href="http://dx.doi.org/10.1111/plb.12472">Comparative seed germination traits in alpine and subalpine grasslands: higher elevations are associated with warmer germination temperatures.</a> <em>Plant Biology</em> 19, 32-40. <a href="pdf/Fernández-Pascual et al. 2017 - Plant Biology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Pérez-Arcoiza A, Prieto JA,
+Díaz TE (2017) <a
+href="http://dx.doi.org/10.1093/aob/mcx005">Environmental filtering
+drives the shape and breadth of the seed germination niche in coastal
+plant communities.</a> <em>Annals of Botany</em> 119, 1169-1177.
+<a href="pdf/Fernández-Pascual et al. 2017 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Martínez-Baniela M, Carlón L, Díaz TE, Bueno A, <strong>Fernández-Pascual E</strong> (2016) <a href="http://dx.doi.org/10.1016/j.flora.2016.04.014">Plant-derived smoke and temperature effects on seed germination of five <em>Helianthemum</em> (Cistaceae).</a> <em>Flora</em> 223, 56-61. <a href="pdf/Martínez-Baniela et al. 2016 - Flora (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Bueno A
+(2017) <a href="http://dx.doi.org/10.1111/plb.12472">Comparative seed
+germination traits in alpine and subalpine grasslands: higher elevations
+are associated with warmer germination temperatures.</a> <em>Plant
+Biology</em> 19, 32-40.
+<a href="pdf/Fernández-Pascual et al. 2017 - Plant Biology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong> (2016) <a href="http://dx.doi.org/10.1016/j.aquabot.2016.01.001">Comparative seed germination traits in bog and fen mire wetlands.</a> <em>Aquatic Botany</em> 130, 21-26. <a href="pdf/Fernández-Pascual 2016 - Aquatic Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p>Martínez-Baniela M, Carlón L, Díaz TE, Bueno A,
+<strong>Fernández-Pascual E</strong> (2016) <a
+href="http://dx.doi.org/10.1016/j.flora.2016.04.014">Plant-derived smoke
+and temperature effects on seed germination of five
+<em>Helianthemum</em> (Cistaceae).</a> <em>Flora</em> 223, 56-61.
+<a href="pdf/Martínez-Baniela et al. 2016 - Flora (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Hájek M, Díaz TE, Pritchard HW (2015) <a href="http://dx.doi.org/10.1007/s12224-015-9223-y">Soil thermal buffer and regeneration niche may favour calcareous fen resilience to climate change.</a> <em>Folia Geobotanica</em> 50, 293-301. <a href="pdf/Fernández-Pascual et al. 2015 - Folia Geobotanica (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong> (2016) <a
+href="http://dx.doi.org/10.1016/j.aquabot.2016.01.001">Comparative seed
+germination traits in bog and fen mire wetlands.</a> <em>Aquatic
+Botany</em> 130, 21-26.
+<a href="pdf/Fernández-Pascual 2016 - Aquatic Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Seal CE, Pritchard HW (2015) <a href="http://dx.doi.org/10.1093/aob/mcu234">Simulating the germination response to diurnally alternating temperatures under climate change scenarios: comparative studies on <em>Carex diandra</em> seeds.</a> <em>Annals of Botany</em> 115, 201-209. <a href="pdf/Fernández-Pascual et al. 2015 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Hájek M, Díaz
+TE, Pritchard HW (2015) <a
+href="http://dx.doi.org/10.1007/s12224-015-9223-y">Soil thermal buffer
+and regeneration niche may favour calcareous fen resilience to climate
+change.</a> <em>Folia Geobotanica</em> 50, 293-301.
+<a href="pdf/Fernández-Pascual et al. 2015 - Folia Geobotanica (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B (2014) <a href="http://dx.doi.org/10.1017/S0960258514000269">Phenotypic plasticity in seed germination correlates differentially with overwintering and flowering temperatures.</a> <em>Seed Science Research</em> 24, 273-280. <a href="pdf/Fernández-Pascual & Jimenez-Alfaro 2014 - SSR (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Seal CE, Pritchard HW (2015) <a
+href="http://dx.doi.org/10.1093/aob/mcu234">Simulating the germination
+response to diurnally alternating temperatures under climate change
+scenarios: comparative studies on <em>Carex diandra</em> seeds.</a>
+<em>Annals of Botany</em> 115, 201-209.
+<a href="pdf/Fernández-Pascual et al. 2015 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Caujapé-Castells J, Jaén-Molina R, Díaz TE (2013) <a href="http://dx.doi.org/10.1093/aob/mct154">A local dormancy cline is related to the seed maturation environment, population genetic composition and climate.</a> <em>Annals of Botany</em> 112, 937-945. <a href="pdf/Fernández-Pascual et al. 2013 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B (2014) <a
+href="http://dx.doi.org/10.1017/S0960258514000269">Phenotypic plasticity
+in seed germination correlates differentially with overwintering and
+flowering temperatures.</a> <em>Seed Science Research</em> 24, 273-280.
+<a href="pdf/Fernández-Pascual & Jimenez-Alfaro 2014 - SSR (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Díaz TE (2013) <a href="http://dx.doi.org/10.1007/s11258-012-0165-7">The temperature dimension of the seed germination niche in fen wetlands.</a> <em>Plant Ecology</em> 214, 489-499. <a href="pdf/Fernández-Pascual et al. 2013 - Plant Ecology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B,
+Caujapé-Castells J, Jaén-Molina R, Díaz TE (2013) <a
+href="http://dx.doi.org/10.1093/aob/mct154">A local dormancy cline is
+related to the seed maturation environment, population genetic
+composition and climate.</a> <em>Annals of Botany</em> 112, 937-945.
+<a href="pdf/Fernández-Pascual et al. 2013 - Annals of Botany (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p>Jiménez-Alfaro B, <strong>Fernández-Pascual E</strong>, Díaz TE, Pérez-Haase A, Ninot JM (2012) <a href="http://dx.doi.org/10.1007/s12224-012-9125-1">Diversity of rich-fen vegetation and related plant specialists in mountain refugia of the Iberian Peninsula.</a> <em>Folia Geobotanica</em> 47, 403-419.</p>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, Díaz TE
+(2013) <a href="http://dx.doi.org/10.1007/s11258-012-0165-7">The
+temperature dimension of the seed germination niche in fen wetlands.</a>
+<em>Plant Ecology</em> 214, 489-499.
+<a href="pdf/Fernández-Pascual et al. 2013 - Plant Ecology (pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 <hr />
 <blockquote>
-<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B, García-Torrico AI, Pérez-García F, Díaz TE (2012) <a href="http://dx.doi.org/10.1017/S0960258512000062">Germination ecology of the perennial <em>Centaurium somedanum</em>, a specialist species of mountain springs.</a> <em>Seed Science Research</em> 22, 199-205. <a href="pdf/Fernández-Pascual et al. 2012 - SSR (Pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
+<p>Jiménez-Alfaro B, <strong>Fernández-Pascual E</strong>, Díaz TE,
+Pérez-Haase A, Ninot JM (2012) <a
+href="http://dx.doi.org/10.1007/s12224-012-9125-1">Diversity of rich-fen
+vegetation and related plant specialists in mountain refugia of the
+Iberian Peninsula.</a> <em>Folia Geobotanica</em> 47, 403-419.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><strong>Fernández-Pascual E</strong>, Jiménez-Alfaro B,
+García-Torrico AI, Pérez-García F, Díaz TE (2012) <a
+href="http://dx.doi.org/10.1017/S0960258512000062">Germination ecology
+of the perennial <em>Centaurium somedanum</em>, a specialist species of
+mountain springs.</a> <em>Seed Science Research</em> 22, 199-205.
+<a href="pdf/Fernández-Pascual et al. 2012 - SSR (Pre-print).pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a></p>
 </blockquote>
 
 

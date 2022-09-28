@@ -1,5 +1,5 @@
 ---
-title: "Eduardo Fernández-Pascual ![](pictures/Loder.jpg){width=auto height=60 .img-circle}"
+title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60 .img-circle}"
 ---
 
 <center>
@@ -8,19 +8,21 @@ title: "Eduardo Fernández-Pascual ![](pictures/Loder.jpg){width=auto height=60 
 
 </center>
 
-I'm a biologist working on plant ecology and conservation, with a focus on plant regeneration by seed:
+I'm an assistant professor of Botany at the University of Oviedo (Asturies, Spain) and I do research on plant ecology:
 
-* The environmental control of seed germination timing in wild species, and how this control is affected by climatic changes.
+* *Functional seed ecology of plant communities*. How plant regeneration by seed varies at different environmental scales, from macroecological patterns at the biome level, to microhabitat effects at the plot level. How these trait-environment relationships drive the distribution and persistence of plant diversity.
 
-* The patterns and drivers of seed diversity across species and communities.
+* *Plant responses to climate change*. How plants acclimatize and adapt to climate change and related global change aspects such as sea level rise and land use change, with a special focus on (but not limited to) responses in regeneration by seed.
 
-* The application of seed science in plant conservation and ecological restoration.
+* *Soil microclimate*. How climate varies at microscales within the soil, and how this variation is driven by factors such as waterlogging or snow cover.
 
-My main study system are the diverse plant communities of the Cantabrian Mountains of Spain, including temperate forests, mires and alpine meadows.
+My main study systems are the diverse plant communities of the [Cantabrian ecoregion](https://www.oneearth.org/ecoregions/cantabrian-mixed-forests/) of Spain, including temperate forests, mires, alpine meadows, coastal habitats & urban and postindustrial ecosystems.
 
-Currently I serve as curator at the [Atlantic Botanic Garden](https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon) and I am a member of the [Vegetation & Biodiversity Lab](https://jimenezalfaro.weebly.com/) at the IMIB Biodiversity Research Institute, University of Oviedo. Please visit the lab's website for more information on current research lines and projects.
+Currently I serve as curator at the [Atlantic Botanic Garden](https://www.gijon.es/es/directorio/jardin-botanico-atlantico-de-gijon) and I am a member of the [Vegetation & Biodiversity Lab](https://jimenezalfaro.weebly.com/), University of Oviedo. Please visit the lab's website for more information on current research lines and projects.
 
-In this website you can find the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Please get in touch for comments or questions about any of these items.
+Also check out the [SeedArc](https://efernandezpascual.github.io/seedarc/index.html) initiative to build a global archive of primary seed germination data.
+
+In this website you can find the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Do get in touch for comments or questions about any of these items.
 
 ---
 
