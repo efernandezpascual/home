@@ -5,7 +5,15 @@ subtitle: "Texts, data, code"
 
 ---
 
-> Rosbakh S, **Fernández-Pascual E**, Mondoni A, Onipchenko V (2022) [Alpine plant communities differ in their seed germination requirements along a snowmelt gradient in the Caucasus.](https://doi.org/10.1007/s00035-022-00286-x) *Alpine Botany*.
+> Gómez-Cabellos S, Toorop PE, Fernández-Pascual E, Iannetta PP, Pritchard HW, Visscher AM (2022) [(Epi) genetic control of secondary seed dormancy depth and germination in *Capsella bursa-pastoris*.](https://doi.org/10.1017/S0960258522000265) *Seed Science Research*.
+
+---
+
+> Visscher AM, Vandelook F, **Fernández-Pascual E**, Pérez-Martínez LV, Ulian T, Diazgranados M, Mattana E (2022) [Low availability of functional seed trait data from the tropics could negatively affect global macroecological studies, predictive models and plant conservation.](https://doi.org/10.1093/aob/mcac130) *Annals of Botany*. <a href="pdf/mcac130.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+
+---
+
+> Rosbakh S, **Fernández-Pascual E**, Mondoni A, Onipchenko V (2022) [Alpine plant communities differ in their seed germination requirements along a snowmelt gradient in the Caucasus.](https://doi.org/10.1007/s00035-022-00286-x) *Alpine Botany* 132, 223–232.
 
 ---
 
@@ -31,6 +39,11 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 
 ---
 
+> Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, **Fernández-Pascual E**, Pritchard HW, Visscher AM (2022) [Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of *Capsella bursa-pastoris* (L.) Medik. (shepherd's purse).](https://doi.org/10.1007/s00709-021-01678-2) *Protoplasma* 259, 595–614.
+<a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+
+---
+
 > Jiménez-Alfaro B, Carlón L, **Fernández-Pascual E**, Acedo C, Alfaro-Saiz E, Alonso Redondo R, Cires E, Del Egido Mazuelas F, Del Río S, Díaz González TE, García González ME, Lence C, Llamas F, Nava HS, Penas Á, Rodríguez Guitián MA, Vázquez VM (2021) [Checklist of the vascular plants of the Cantabrian Mountains.](https://doi.org/10.5209/mbot.74570) *Mediterranean Botany* 42, e74570. 
 <a href="pdf/Jiménez-Alfaro et al. 2021 - Mediterranean Botany.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
@@ -38,11 +51,6 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 
 > Loidi J, Chytrý M, Jiménez-Alfaro B, Alessi N, Biurrun I, Campos JA, Čarni A, **Fernández-Pascual E**, Font Castell X, Gholizadeh H, Indreica A, Kavgacı A, Knollová I, Naqinezhad A, Novák P, Nowak A, Škvorc Ž, Tsiripidis I, Vassilev K, Marcenò C (2021) [Life-form diversity across temperate deciduous forests of Western Eurasia: a different story in the understory.](https://doi.org/10.1111/jbi.14254) *Journal of Biogeography* 48, 2932-2945.
 <a href="pdf/jbi.14254.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
-
----
-
-> Gómez-Cabellos S, Toorop P, Cañal MJ, Iannetta P, **Fernández-Pascual E**, Pritchard HW, Visscher AM (2021) [Global DNA methylation and cellular 5-methylcytosine and H4 acetylated patterns in primary and secondary dormant seeds of *Capsella bursa-pastoris* (L.) Medik. (shepherd's purse).](https://doi.org/10.1007/s00709-021-01678-2) *Protoplasma* 259, 595–614.
-<a href="pdf/Gomez-Cabellos2021_Article_GlobalDNAMethylationAndCellula.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
 ---
 
