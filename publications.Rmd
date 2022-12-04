@@ -5,7 +5,7 @@ subtitle: "Texts, data, code"
 
 ---
 
-> Gómez-Cabellos S, Toorop PE, Fernández-Pascual E, Iannetta PP, Pritchard HW, Visscher AM (2022) [(Epi) genetic control of secondary seed dormancy depth and germination in *Capsella bursa-pastoris*.](https://doi.org/10.1017/S0960258522000265) *Seed Science Research*.
+> Gómez-Cabellos S, Toorop PE, **Fernández-Pascual E**, Iannetta PP, Pritchard HW, Visscher AM (2022) [(Epi) genetic control of secondary seed dormancy depth and germination in *Capsella bursa-pastoris*.](https://doi.org/10.1017/S0960258522000265) *Seed Science Research*.
 
 ---
 
