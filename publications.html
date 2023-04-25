@@ -13,8 +13,8 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -60,7 +60,6 @@ if (window.hljs) {
 
 
 
-
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -81,9 +80,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,15 +137,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -240,7 +232,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -279,13 +271,28 @@ $(document).ready(function () {
 </div>
 
 
+<blockquote>
+<p>Dengler J, Jansen F, Chusova O, Hüllbusch E, Nobis MP, Van Meerbeek
+K, […], <strong>Fernández-Pascual E</strong> <em>et al</em>. (2023) <a
+href="https://doi.org/10.3897/VCS.98324">Ecological Indicator Values for
+Europe (EIVE) 1.0.</a> <em>Vegetation Classification and Survey</em> 4,
+7-29.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Tichý L, Axmanová I, Dengler J, Guarino R, Jansen F, Midolo G, […],
+<strong>Fernández-Pascual E</strong> <em>et al</em>. (2023) <a
+href="https://doi.org/10.1111/jvs.13168">Ellenberg‐type indicator values
+for European vascular plant species.</a> <em>Journal of Vegetation
+Science</em>, e13168.</p>
+</blockquote>
 <hr />
 <blockquote>
 <p>Gómez-Cabellos S, Toorop PE, <strong>Fernández-Pascual E</strong>,
 Iannetta PP, Pritchard HW, Visscher AM (2022) <a
 href="https://doi.org/10.1017/S0960258522000265">(Epi) genetic control
 of secondary seed dormancy depth and germination in <em>Capsella
-bursa-pastoris</em>.</a> <em>Seed Science Research</em>.</p>
+bursa-pastoris</em>.</a> <em>Seed Science Research</em> 32, 200-221.</p>
 </blockquote>
 <hr />
 <blockquote>
@@ -294,7 +301,7 @@ Pérez-Martínez LV, Ulian T, Diazgranados M, Mattana E (2022) <a
 href="https://doi.org/10.1093/aob/mcac130">Low availability of
 functional seed trait data from the tropics could negatively affect
 global macroecological studies, predictive models and plant
-conservation.</a> <em>Annals of Botany</em>.
+conservation.</a> <em>Annals of Botany</em> 130, 773-784.
 <a href="pdf/mcac130.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a></p>
 </blockquote>
 <hr />
@@ -337,14 +344,14 @@ herbaceous understory of ancient woodlands of temperate Europe.</a>
 <blockquote>
 <p>Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P,
 Kemppinen J, Kopecký M, […], <strong>Fernández-Pascual E</strong>, […],
-Lenoir J. (2022) <a href="https://doi.org/10.1111/gcb.16060">Global maps
+Lenoir J (2022) <a href="https://doi.org/10.1111/gcb.16060">Global maps
 of soil temperature.</a> <em>Global Change Biology</em> 28,
 3110-3144.</p>
 </blockquote>
 <hr />
 <blockquote>
 <p><strong>Fernández-Pascual E</strong>, Vaz M, Morais B, Reiné R,
-Ascaso J, Afif Khouri E, Carta A. (2022) <a
+Ascaso J, Afif Khouri E, Carta A (2022) <a
 href="https://dx.doi.org/10.1093/aob/mcab135">Seed ecology of European
 mesic meadows.</a> <em>Annals of Botany</em> 129, 121–134.
 <a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a></p>

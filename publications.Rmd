@@ -3,13 +3,19 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
----
-
-> Gómez-Cabellos S, Toorop PE, **Fernández-Pascual E**, Iannetta PP, Pritchard HW, Visscher AM (2022) [(Epi) genetic control of secondary seed dormancy depth and germination in *Capsella bursa-pastoris*.](https://doi.org/10.1017/S0960258522000265) *Seed Science Research*.
+> Dengler J, Jansen F, Chusova O, Hüllbusch E, Nobis MP, Van Meerbeek K, [...], **Fernández-Pascual E** *et al*. (2023) [Ecological Indicator Values for Europe (EIVE) 1.0.](https://doi.org/10.3897/VCS.98324) *Vegetation Classification and Survey* 4, 7-29.
 
 ---
 
-> Visscher AM, Vandelook F, **Fernández-Pascual E**, Pérez-Martínez LV, Ulian T, Diazgranados M, Mattana E (2022) [Low availability of functional seed trait data from the tropics could negatively affect global macroecological studies, predictive models and plant conservation.](https://doi.org/10.1093/aob/mcac130) *Annals of Botany*. <a href="pdf/mcac130.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+> Tichý L, Axmanová I, Dengler J, Guarino R, Jansen F, Midolo G, [...], **Fernández-Pascual E** *et al*. (2023) [Ellenberg‐type indicator values for European vascular plant species.]( https://doi.org/10.1111/jvs.13168) *Journal of Vegetation Science*, e13168.
+
+---
+
+> Gómez-Cabellos S, Toorop PE, **Fernández-Pascual E**, Iannetta PP, Pritchard HW, Visscher AM (2022) [(Epi) genetic control of secondary seed dormancy depth and germination in *Capsella bursa-pastoris*.](https://doi.org/10.1017/S0960258522000265) *Seed Science Research* 32, 200-221.
+
+---
+
+> Visscher AM, Vandelook F, **Fernández-Pascual E**, Pérez-Martínez LV, Ulian T, Diazgranados M, Mattana E (2022) [Low availability of functional seed trait data from the tropics could negatively affect global macroecological studies, predictive models and plant conservation.](https://doi.org/10.1093/aob/mcac130) *Annals of Botany* 130, 773-784. <a href="pdf/mcac130.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
 
 ---
 
@@ -30,11 +36,11 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 
 ---
 
-> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E**, [...], Lenoir J. (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology* 28, 3110-3144.
+> Lembrechts J, van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, Kopecký M, [...], **Fernández-Pascual E**, [...], Lenoir J (2022) [Global maps of soil temperature.](https://doi.org/10.1111/gcb.16060) *Global Change Biology* 28, 3110-3144.
 
 ---
 
-> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A. (2022) [Seed ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
+> **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A (2022) [Seed ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
 <a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
 
 ---
