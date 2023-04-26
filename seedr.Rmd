@@ -3,6 +3,12 @@ title: "seedr"
 subtitle: "Hydro and Thermal Time Seed Germination Models in R"
 ---
 
+<style type="text/css">
+  body{
+  font-family: Georgia;
+}
+</style>
+
 ---
 
 ![](pictures/seeds.png)

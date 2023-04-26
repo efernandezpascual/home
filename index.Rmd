@@ -2,6 +2,12 @@
 title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60 .img-circle}"
 ---
 
+<style type="text/css">
+  body{
+  font-family: Georgia;
+}
+</style>
+
 <center>
 
 ![](pictures/Retriñón.JPG){width="100%" height=auto}

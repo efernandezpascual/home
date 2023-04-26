@@ -3,6 +3,12 @@ title: "SylvanSeeds"
 subtitle: "A seed germination database for temperate deciduous forests"
 ---
 
+<style type="text/css">
+  body{
+  font-family: Georgia;
+}
+</style>
+
 ---
 
 ![](pictures/2017070313 Blue Ridge Parkway small.jpg)
