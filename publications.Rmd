@@ -3,12 +3,6 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
-<style type="text/css">
-  body{
-  font-family: Georgia;
-}
-</style>
-
 > Dengler J, Jansen F, Chusova O, Hüllbusch E, Nobis MP, Van Meerbeek K, [...], **Fernández-Pascual E** *et al*. (2023) [Ecological Indicator Values for Europe (EIVE) 1.0.](https://doi.org/10.3897/VCS.98324) *Vegetation Classification and Survey* 4, 7-29.
 
 ---
