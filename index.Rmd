@@ -8,7 +8,7 @@ title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60
 
 </center>
 
-I'm an associate professor of Botany at the University of Oviedo and a researcher at the [Biodiversity Research Institute](https://www.unioviedo.es/IMIB/en/) (Univ. Oviedo, CSIC, Princ. Asturias) working on:
+I'm a researcher at the [IMIB Biodiversity Research Institute](https://www.unioviedo.es/IMIB/en/) (University of Oviedo - CSIC - Principality of Asturias) working on:
 
 * *Functional seed ecology*. How plant regeneration by seed varies at different environmental scales, from macroecological patterns at the biome level, to microhabitat effects at the plot level. How these seed-environment relationships drive the distribution and persistence of plant diversity. 
 
@@ -16,9 +16,7 @@ I'm an associate professor of Botany at the University of Oviedo and a researche
 
 * *Soil microclimate*. How climate varies at microscales within the soil, and how this variation is driven by factors such as waterlogging or snow cover.
 
-My main study systems are the diverse plant communities of the [Cantabrian ecoregion](https://www.oneearth.org/ecoregions/cantabrian-mixed-forests/) of Spain, including temperate forests, mires, alpine meadows, coastal habitats & urban and postindustrial ecosystems.
-
-In this website I collect and share the datasets and codes of my publications, plus some research tools, like the SylvanSeeds database and the seedr R package. Also check out the [SeedArc](http://unioviedo.es/seedarc/) initiative to build a global archive of primary seed germination data. Please get in touch for comments or questions about any of these items.
+In this website I collect and share the datasets and codes of my [publications](https://efernandezpascual.github.io/home/publications.html), plus some research tools, like the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package. Also check out the [SeedArc](http://unioviedo.es/seedarc/) initiative to build a global archive of primary seed germination data. Please get in touch for comments or questions about any of these items.
 
 ---
 
