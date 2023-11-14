@@ -3,6 +3,18 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
+>  Jiménez-Alfaro B, Aunina L, Carbognani M, Dítě D, **Fernández-Pascual E**, Garbolino E, Hájek O, Hájková P, Ivchenko TG, Jandt U, Jansen F, Kolari THM, Pawlikowski P, Pérez-Haase A, Peterka T, Petraglia A, Plesková Z, Tahvanainen T, Tomaselli M, Hájek M (2023) [Habitat-based biodiversity responses to macroclimate and edaphic factors in European fen ecosystems.](https://doi.org/10.1111/gcb.16965) *Global Change Biology* 29, 6756–6771. <a href="pdf/Global Change Biology - 2023 - Jim nez‐Alfaro - Habitat‐based biodiversity responses to macroclimate and edaphic factors in.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a> 
+
+---
+
+> Rosbakh S, Carta A, **Fernández‐Pascual E**, Phartyal SS, Dayrell RLC, Mattana E, Saatkamp A, Vandelook F, Baskin J, Baskin C (2023) [Global seed dormancy patterns are driven by macroclimate but not fire regime.](https://doi.org/10.1111/nph.19173) *New Phytologist*, 240 555-564. <a href="pdf/New Phytologist - 2023 - Rosbakh - Global seed dormancy patterns are driven by macroclimate but not fire regime.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+
+---
+
+> **Fernández-Pascual E**, Carta A, Rosbakh S, Guja L, Phartyal SS, Silveira FAO, Chen SC, Larson JE, Jiménez-Alfaro B (2023) [*SeedArc*, a global archive of primary seed germination data.]( https://doi.org/10.1111/nph.19143) *New Phytologist* 240, 466-470. <a href="https://github.com/efernandezpascual/seedarcms"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a><a href="pdf/New Phytologist - 2023 - Fern ndez‐Pascual - SeedArc a global archive of primary seed germination data.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a>
+
+---
+
 > Dengler J, Jansen F, Chusova O, Hüllbusch E, Nobis MP, Van Meerbeek K, [...], **Fernández-Pascual E** *et al*. (2023) [Ecological Indicator Values for Europe (EIVE) 1.0.](https://doi.org/10.3897/VCS.98324) *Vegetation Classification and Survey* 4, 7-29.
 
 ---
@@ -41,7 +53,7 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 ---
 
 > **Fernández-Pascual E**, Vaz M, Morais B, Reiné R, Ascaso J, Afif Khouri E, Carta A (2022) [Seed ecology of European mesic meadows.](https://dx.doi.org/10.1093/aob/mcab135) *Annals of Botany* 129, 121–134.
-<a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+<a href="https://github.com/efernandezpascual/meadows"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a><a href="pdf/AOB22 self-archiving.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a>
 
 ---
 
@@ -66,7 +78,7 @@ Mediterranean regions of the Northern Hemisphere.](https://doi.org/10.1016/B978-
 ---
 
 > **Fernández-Pascual E**, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A, Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B (2021) [The seed germination spectrum of alpine plants: a global meta-analysis.](https://doi.org/10.1111/nph.17086) *New Phytologist* 229, 3573-3586.
-><a href="https://github.com/efernandezpascual/alpineseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a>
+><a href="https://github.com/efernandezpascual/alpineseeds"><img src="icons/GitHub.svg" width="25" title="Data & code"/></a><a href="pdf/Fernández-Pascual et al. 2021 - New Phytol self-archiving.pdf"><img src="icons/PDF.webp" width="25" title="Download preprint"/></a>
 
 ---
 
