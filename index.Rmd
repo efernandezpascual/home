@@ -32,6 +32,7 @@ In this website I collect and share the datasets and codes of my [publications](
 
 <center>
 
-<a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a>
+<a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a><a href="https://www.unioviedo.es/IMIB/en/"><img src="icons/imib.png" height = 60 title="IMIB Biodiversity Research Institute"/></a>
 
 </center>
+
