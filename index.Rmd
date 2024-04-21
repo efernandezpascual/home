@@ -8,15 +8,13 @@ title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60
 
 </center>
 
-I'm a researcher at the [IMIB Biodiversity Research Institute](https://www.unioviedo.es/IMIB/en/) (University of Oviedo - CSIC - Principality of Asturias) working on:
+I’m a senior researcher at the Biodiversity Research Institute ([IMIB](https://www.unioviedo.es/IMIB/en/)), University of Oviedo – CSIC – Principality of Asturias.
 
-* *Functional seed ecology*. How plant regeneration by seed varies at different environmental scales, from macroecological patterns at the biome level, to microhabitat effects at the plot level. How these seed-environment relationships drive the distribution and persistence of plant diversity. 
+Our research group is interested in how seeds contribute to create and maintain plant diversity. We study seed ecology to understand community assembly and to support ecosystem restoration. We combine experimental, observational and meta-analytical approaches to characterize seed-environment relationships across species, habitats and biomes. We ask how seeds respond to microclimatic gradients in the soil, and how they adapt and acclimatize to global change. 
 
-* *Plant responses to global change*. How plants acclimatize and adapt to climate change and other global change aspects such as sea level rise and urbanization, with a special focus on (but not limited to) responses in regeneration by seed.
+In 2023, we launched [SeedArc, a global seed germination database](http://unioviedo.es/seedarc/). SeedArc is a partnership of seed scientists dedicated to share primary data from germination experiments, collaborate in its analysis, make a seed germination database available to the research community, and advance open science in seed ecology.
 
-* *Soil microclimate*. How climate varies at microscales within the soil, and how this variation is driven by factors such as waterlogging or snow cover.
-
-In this website I collect and share the datasets and codes of my [publications](https://efernandezpascual.github.io/home/publications.html), plus some research tools, like the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package. Also check out the [SeedArc](http://unioviedo.es/seedarc/) initiative to build a global archive of primary seed germination data. Please get in touch for comments or questions about any of these items.
+In this website I collect and share the datasets and codes of my [publications](https://efernandezpascual.github.io/home/publications.html), plus some research tools, like the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package.
 
 ---
 

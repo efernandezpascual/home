@@ -3,11 +3,11 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
-> Cruz‐Tejada DM, **Fernández‐Pascual E**, Mo A, Mattana E, Carta A (2024)[ MedGermDB: A seed germination database for characteristic species of Mediterranean habitats.](https://doi.org/10.1111/avsc.12771) *Applied Vegetation Science* 27, e12771.
+> Cruz‐Tejada DM, **Fernández‐Pascual E**, Mo A, Mattana E, Carta A (2024) [MedGermDB: A seed germination database for characteristic species of Mediterranean habitats.](https://doi.org/10.1111/avsc.12771) *Applied Vegetation Science* 27, e12771.
 
 ---
 
-> Jiménez‐Alfaro B, **Fernández‐Pascual E**, Espinosa del Alba  C, Marcenò C (2024)[ Spatiotemporal patterns of microclimatic buffering in relict alpine communities.](https://doi.org/10.1111/jvs.13242) *Journal of Vegetation Science* 35, e13242.
+> Jiménez‐Alfaro B, **Fernández‐Pascual E**, Espinosa del Alba  C, Marcenò C (2024) [Spatiotemporal patterns of microclimatic buffering in relict alpine communities.](https://doi.org/10.1111/jvs.13242) *Journal of Vegetation Science* 35, e13242.
 
 ---
 
