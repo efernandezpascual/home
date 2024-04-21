@@ -3,6 +3,18 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
+> Cruz‐Tejada DM, **Fernández‐Pascual E**, Mo A, Mattana E, Carta A (2024)[ MedGermDB: A seed germination database for characteristic species of Mediterranean habitats.](https://doi.org/10.1111/avsc.12771) *Applied Vegetation Science* 27, e12771.
+
+---
+
+> Jiménez‐Alfaro B, **Fernández‐Pascual E**, Espinosa del Alba  C, Marcenò C (2024)[ Spatiotemporal patterns of microclimatic buffering in relict alpine communities.](https://doi.org/10.1111/jvs.13242) *Journal of Vegetation Science* 35, e13242.
+
+---
+
+> Rauschkolb R, Bucher SF, Hensen I, Ahrends A, **Fernández-Pascual E**, Heubach K, [...], Römermann C (2024) [Spatial variability in herbaceous plant phenology is mostly explained by variability in temperature but also by photoperiod and functional traits.](https://doi.org/10.1007/s00484-024-02621-9) *International Journal of Biometeorology* 68, 761–775.
+
+---
+
 >  Jiménez-Alfaro B, Aunina L, Carbognani M, Dítě D, **Fernández-Pascual E**, Garbolino E, Hájek O, Hájková P, Ivchenko TG, Jandt U, Jansen F, Kolari THM, Pawlikowski P, Pérez-Haase A, Peterka T, Petraglia A, Plesková Z, Tahvanainen T, Tomaselli M, Hájek M (2023) [Habitat-based biodiversity responses to macroclimate and edaphic factors in European fen ecosystems.](https://doi.org/10.1111/gcb.16965) *Global Change Biology* 29, 6756–6771. <a href="pdf/Global Change Biology - 2023 - Jim nez‐Alfaro - Habitat‐based biodiversity responses to macroclimate and edaphic factors in.pdf"><img src="icons/PDF.webp" width="25" title="Download open access"/></a> 
 
 ---
