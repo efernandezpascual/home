@@ -3,6 +3,10 @@ title: "Publications"
 subtitle: "Texts, data, code"
 ---
 
+> Rosbakh S, Carta A, **Fernández-Pascual E**, Phartyal SS, Dayrell RLC, Mattana E, Saatkamp A, Vandelook F, Baskin JM, Baskin CC (2024) [Large dataset analyses advance knowledge of seed ecology and evolutionary biology.](https://doi.org/10.1111/nph.19752) *New Phytologist*.
+
+---
+
 > Cruz‐Tejada DM, **Fernández‐Pascual E**, Mo A, Mattana E, Carta A (2024) [MedGermDB: A seed germination database for characteristic species of Mediterranean habitats.](https://doi.org/10.1111/avsc.12771) *Applied Vegetation Science* 27, e12771.
 
 ---
