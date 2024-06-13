@@ -8,9 +8,9 @@ title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60
 
 </center>
 
-I’m a senior researcher at the Biodiversity Research Institute ([IMIB](https://www.unioviedo.es/IMIB/en/)), University of Oviedo – CSIC – Principality of Asturias.
+I’m a senior researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/), University of Oviedo – CSIC – Principality of Asturias.
 
-Our research group is interested in how seeds contribute to create and maintain plant diversity. We study seed ecology to understand community assembly and to support ecosystem restoration. We combine experimental, observational and meta-analytical approaches to characterize seed-environment relationships across species, habitats and biomes. We ask how seeds respond to microclimatic gradients in the soil, and how they adapt and acclimatize to global change. 
+Our research group studies how seeds contribute to create and maintain plant diversity. Knowledge on seed ecology helps us to understand community assembly and to support habitat restoration. We combine field work, laboratory experiments and meta-analysis techniques to produce comparative studies of the regeneration niche at the level of species, vegetation types and biomes. We ask how seeds respond to microclimatic gradients in the soil, and how they adapt and acclimatize to global change. 
 
 In 2023, we launched [SeedArc, a global seed germination database](http://unioviedo.es/seedarc/). SeedArc is a partnership of seed scientists dedicated to share primary data from germination experiments, collaborate in its analysis, make a seed germination database available to the research community, and advance open science in seed ecology.
 
@@ -30,7 +30,7 @@ In this website I collect and share the datasets and codes of my [publications](
 
 <center>
 
-<a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a><a href="https://www.unioviedo.es/IMIB/en/"><img src="icons/imib.png" height = 60 title="IMIB Biodiversity Research Institute"/></a>
+<a href="https://www.uniovi.es/en/inicio"><img src="icons/uniovi.png" height = 70 title="University of Oviedo"/></a><a href="https://imib.csic.es/"><img src="icons/imib.png" height = 60 title="IMIB Biodiversity Research Institute"/></a>
 
 </center>
 
