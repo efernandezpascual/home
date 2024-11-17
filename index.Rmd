@@ -1,5 +1,5 @@
 ---
-title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60 .img-circle}"
+title: "Eduardo Fernández-Pascual"
 ---
 
 <center>
@@ -8,13 +8,7 @@ title: "Eduardo Fernández-Pascual ![](pictures/omaña.jpg){width=auto height=60
 
 </center>
 
-I’m a senior researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/), University of Oviedo – CSIC – Principality of Asturias.
-
-Our research group studies how seeds contribute to create and maintain plant diversity. Knowledge on seed ecology helps us to understand community assembly and to support habitat restoration. We combine field work, laboratory experiments and meta-analysis techniques to produce comparative studies of the regeneration niche at the level of species, vegetation types and biomes. We ask how seeds respond to microclimatic gradients in the soil, and how they adapt and acclimatize to global change. 
-
-In 2023, we launched [SeedArc, a global seed germination database](http://unioviedo.es/seedarc/). SeedArc is a partnership of seed scientists dedicated to share primary data from germination experiments, collaborate in its analysis, make a seed germination database available to the research community, and advance open science in seed ecology.
-
-In this website I collect and share the datasets and codes of my [publications](https://efernandezpascual.github.io/home/publications.html), plus some research tools, like the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package.
+I’m a senior researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/), University of Oviedo – CSIC – Principality of Asturias. I study how seeds contribute to create plant diversity. My work combines field work, lab experiments and knowledge synthesis to produce comparative studies of the regeneration niche across species, habitats and biomes. In this website you can access the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package.
 
 ---
 
