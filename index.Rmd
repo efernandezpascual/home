@@ -3,13 +3,25 @@ title: "Eduardo Fernández Pascual"
 subtitle: "Biodiversity | Seed regeneration | Habitat restoration"
 ---
 
-<center>
+---
 
-![](pictures/Retriñón.JPG){width="100%" height=auto}
+:::: {style="display: flex;"}
 
-</center>
+::: {}
 
-> I am an Associate Professor of Botany at the University of Oviedo and researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/). My work focuses on seed regeneration as a key process for biodiversity and habitat restoration, combining vegetation ecology with open-science approaches and biocultural perspectives.
+![](pictures/DSC_0273_small.JPG){width="95%" height=auto .img-circle}
+
+:::
+
+::: {}
+
+> I am an Associate Professor of Botany at the University of Oviedo and a researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/)). My work focuses on seed regeneration as a key process for biodiversity and habitat restoration, combining vegetation ecology with open-science approaches and biocultural perspectives.
+
+:::
+
+::::
+
+---
 
 ## Research
 
@@ -18,11 +30,15 @@ subtitle: "Biodiversity | Seed regeneration | Habitat restoration"
 * My publications in [ORCID](https://orcid.org/0000-0002-4743-9577), [Google Scholar](https://scholar.google.com/citations?user=1DSeLw0AAAAJ&hl=en), and [ResearchGate](https://www.researchgate.net/profile/Eduardo-Fernandez-Pascual-2).
 * My datasets & code are available in [GitHub](https://github.com/efernandezpascual). Also check the [SylvanSeeds](https://efernandezpascual.github.io/home/sylvanseeds.html) database and the [seedr](https://efernandezpascual.github.io/home/seedr.html) R package.
 
+---
+
 ## Outreach
 
 * Join me in [iNaturalist](https://www.inaturalist.org/people/efernandezpascual) to observe our plant diversity.
 * Check our project to catalogue the plants of the [University of Oviedo](https://www.inaturalist.org/projects/uniovi-flora-de-la-universidad-de-oviedo).
 * Follow my little explorations of the plant and biocultural diversity of Asturias in [Instagram](https://www.instagram.com/efernandezpascual/).
+
+---
 
 ## Contact
 
