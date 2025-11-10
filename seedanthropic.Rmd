@@ -1,0 +1,34 @@
+---
+title: "SeedAnthropic"
+subtitle: "Understanding Seed Regeneration in Human-Dominated Landscapes"
+---
+
+---
+
+<center>
+
+![](pictures/seedanthropic.png)
+
+---
+
+**Human-altered environments**—such as urban areas, industrial sites, abandoned quarries, and roadsides—are increasingly common across the planet. These spaces can host surprising levels of **biodiversity**, but they also face major challenges: habitat degradation, biological invasions, and the loss of native species. To restore these landscapes and make them resilient, we need to understand how plants regenerate under such conditions.
+
+**SeedAnthropic** is a research project that explores the role of seeds in shaping plant communities in anthropogenic and invaded habitats. **Seeds** are the starting point of plant life, and their traits—such as dispersal ability, dormancy, and germination timing—determine whether species can establish and persist in disturbed environments. By studying these traits, we aim to uncover the mechanisms that allow native plants to coexist with humans and **resist invasive species**.
+
+Our approach combines global synthesis and local experimentation. At the **global scale**, we analyze thousands of records to identify patterns in seed traits of synanthropic (human-associated) plants and compare them with invasive species. At the **regional scale**, we focus on the Cantabrian Mixed Forests ecoregion, a biodiversity hotspot in northern Spain, where we survey invaded habitats and test native seed mixes designed for ecological restoration. These mixes will be evaluated in greenhouse trials and real-world restoration sites, in collaboration with seed producers and land managers.
+
+**SeedAnthropic** embraces open science principles: all data and protocols will be shared openly to support future research and practical applications. Beyond its scientific goals, the project promotes public engagement through citizen science initiatives and outreach activities, highlighting the cultural and ecological value of native plants.
+
+The **SeedAnthropic** project is funded bythe program *Generación de Conocimiento 2024* of the Spanish Ministry of Science, and co-led by Eduardo Fernández Pascual and Adrián Lázaro Lobo at the University of Oviedo.
+
+**Our vision**: to turn degraded spaces into biodiverse, resilient habitats by harnessing the power of seeds.
+
+</center>
+
+---
+
+**Publications**
+
+* Fernández-Pascual E, Ferencova Z, González-García V, & Jiménez-Alfaro B (2026) [Compositional novelty of plant, fungal and bacterial communities across urban habitats](https://doi.org/10.1016/j.landurbplan.2025.105517). *Landscape and Urban Planning* 265, 105517.
+
+* Fernández‐Pascual E, González‐García V, Ivesdal G, Lázaro‐Lobo A, & Jiménez‐Alfaro B (2025)[ Classification and characterization of anthropogenic plant communities in the northwestern Iberian Peninsula]( https://doi.org/10.1111/avsc.70010). *Applied Vegetation Science* 28, e70010.

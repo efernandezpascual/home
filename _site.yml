@@ -1,10 +1,12 @@
-name: "Eduardo Fernández-Pascual"
+name: "Eduardo Fernández Pascual"
 output_dir: "."
 navbar:
-  title: "Eduardo Fernández-Pascual"
+  title: "Eduardo Fernández Pascual"
   left:
     - text: "Home"
       href: index.html
+    - text: "SeedAnthropic"
+      href: seedanthropic.html
     - text: "SylvanSeeds"
       href: sylvanseeds.html
     - text: "seedr"
