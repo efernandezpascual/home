@@ -31,4 +31,4 @@ The **SeedAnthropic** project is funded bythe program *Generación de Conocimien
 
 * Fernández-Pascual E, Ferencova Z, González-García V, & Jiménez-Alfaro B (2026) [Compositional novelty of plant, fungal and bacterial communities across urban habitats](https://doi.org/10.1016/j.landurbplan.2025.105517). *Landscape and Urban Planning* 265, 105517.
 
-* Fernández‐Pascual E, González‐García V, Ivesdal G, Lázaro‐Lobo A, & Jiménez‐Alfaro B (2025)[ Classification and characterization of anthropogenic plant communities in the northwestern Iberian Peninsula]( https://doi.org/10.1111/avsc.70010). *Applied Vegetation Science* 28, e70010.
+* Fernández‐Pascual E, González‐García V, Ivesdal G, Lázaro‐Lobo A, & Jiménez‐Alfaro B (2025) [ Classification and characterization of anthropogenic plant communities in the northwestern Iberian Peninsula]( https://doi.org/10.1111/avsc.70010). *Applied Vegetation Science* 28, e70010.
