@@ -3,11 +3,19 @@ title: "Eduardo Fernández Pascual"
 subtitle: "Biodiversity | Seed regeneration | Habitat restoration"
 ---
 
-![](pictures/DSC_0273_small.JPG){width="20%" height="20%" .img-circle}
-
 ---
 
+:::: {style="display: flex;"}
+
+::: {}
+![](pictures/DSC_0273_small.JPG){width="68%" height="68%" .img-circle}
+:::
+
+::: {}
 > I am an Associate Professor of Botany at the University of Oviedo and a researcher at the Biodiversity Research Institute ([IMIB](https://imib.csic.es/)). My work focuses on seed regeneration as a key process for biodiversity and habitat restoration, combining vegetation ecology with open-science approaches and biocultural perspectives.
+:::
+
+::::
 
 ---
 
