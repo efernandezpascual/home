@@ -19,9 +19,9 @@ Our approach combines global synthesis and local experimentation. At the **globa
 
 **SeedAnthropic** embraces open science principles: all data and protocols will be shared openly to support future research and practical applications. Beyond its scientific goals, the project promotes public engagement through citizen science initiatives and outreach activities, highlighting the cultural and ecological value of native plants.
 
-The **SeedAnthropic** project is funded bythe program *Generación de Conocimiento 2024* of the Spanish Ministry of Science, and co-led by Eduardo Fernández Pascual and Adrián Lázaro Lobo at the University of Oviedo.
+The **SeedAnthropic** project is funded for the period 2025-2029 by the program *Generación de Conocimiento 2024* of the Spanish Ministry of Science, and co-led by Eduardo Fernández Pascual and Adrián Lázaro Lobo at the University of Oviedo.
 
-**Our vision**: to turn degraded spaces into biodiverse, resilient habitats by harnessing the power of seeds.
+*Our vision: to turn degraded spaces into biodiverse, resilient habitats by harnessing the power of seeds.*
 
 </center>
 
@@ -31,4 +31,12 @@ The **SeedAnthropic** project is funded bythe program *Generación de Conocimien
 
 * Fernández-Pascual E, Ferencova Z, González-García V, & Jiménez-Alfaro B (2026) [Compositional novelty of plant, fungal and bacterial communities across urban habitats](https://doi.org/10.1016/j.landurbplan.2025.105517). *Landscape and Urban Planning* 265, 105517.
 
-* Fernández‐Pascual E, González‐García V, Ivesdal G, Lázaro‐Lobo A, & Jiménez‐Alfaro B (2025) [ Classification and characterization of anthropogenic plant communities in the northwestern Iberian Peninsula]( https://doi.org/10.1111/avsc.70010). *Applied Vegetation Science* 28, e70010.
+* Fernández‐Pascual E, González‐García V, Ivesdal G, Lázaro‐Lobo A, & Jiménez‐Alfaro B (2025) [ Classification and characterization of anthropogenic plant communities in the northwestern Iberian Peninsula](https://doi.org/10.1111/avsc.70010). *Applied Vegetation Science* 28, e70010.
+
+* Lázaro-Lobo A, Rendueles Fernández B, Fernández-Pascual E, González-García V, & Jiménez-Alfaro B (2025) [Invasive plants have a delayed and longer flowering phenology than native plants in an ecoregional flora](https://doi.org/10.1093/aob/mcaf078). *Annals of Botany*, mcaf078.
+
+* Lázaro‐Lobo A, Wessely J, Essl F, Moser D, & Jiménez‐Alfaro B (2025) [Combining hierarchical distribution models with dispersal simulations to predict the spread of invasive plant species](https://doi.org/10.1111/geb.70026). *Global Ecology and Biogeography* 34, e70026.
+
+* Lázaro-Lobo A, Campos JA, Díaz TE, Fernández-Pascual E, González-García V, Marchante H, Buján MIR, Jiménez-Alfaro B (2024) [An ecoregion-based approach to evaluate invasive plant species pools](https://doi.org/10.3897/neobiota.96.116105). *NeoBiota* 96, 105-128.
+
+* Lázaro-Lobo A, Alonso-Zaldívar H, Sagrera SJM, Espinosa del Alba CE, Fernández-Pascual E, González-García V, Jiménez-Alfaro B (2024) [Regeneration niche of *Cortaderia selloana* in an invaded region: Flower predation, environmental stress, and transgenerational effects](https://doi.org/10.1016/j.stress.2024.100483). *Plant Stress* 12, 100483.
