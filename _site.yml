@@ -11,6 +11,7 @@ navbar:
       href: sylvanseeds.html
     - text: "seedr"
       href: seedr.html
-output:
-  html_document:
-    theme: flatly
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    toc: yes
