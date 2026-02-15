@@ -14,4 +14,4 @@ navbar:
 output: 
   prettydoc::html_pretty:
     theme: cayman
-    toc: yes
+    toc: no
