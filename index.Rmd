@@ -11,13 +11,13 @@ subtitle: "Biodiversity | Seed regeneration | Habitat restoration"
 
 ## Research programme
 
-🌱 **1. Seed regeneration ecology**
+🌱 *1. Seed regeneration ecology*
 
 I study seed regeneration as a key process linking biodiversity, plant community dynamics, and ecological restoration. My work focuses on the regeneration niche, germination, establishment, and regeneration strategies across environmental and disturbance gradients.
 
 This line is supported by [SeedArc](https://www.unioviedo.es/seedarc/index.html), a global germination data infrastructure aimed at addressing macroecological and evolutionary questions, identifying general regeneration patterns, and generating reusable resources for evidence-based restoration.
 
-🌍 2. Anthropogenic and novel ecosystems
+🌍 *2. Anthropogenic and novel ecosystems*
 
 I investigate how plant biodiversity is structured and regenerates in landscapes transformed by human activity, including urban, industrial, and other novel ecosystems. I analyze novel species pools, donor natural habitats, and the processes that constrain or facilitate plant colonization, with direct applications to renaturalization and ecological restoration.
 
@@ -25,11 +25,11 @@ Within this framework, I use subtropical microrefugia and laurification processe
 
 This line is articulated through the [SeedAnthropic](https://efernandezpascual.github.io/home/seedanthropic.html) project.
 
-📜 3. Biocultural heritage and plant diversity
+📜 *3. Biocultural heritage and plant diversity*
 
 I explore historical and cultural relationships between plants, landscapes, and societies, including phyto-toponyms and other links between local knowledge and biodiversity. This line provides territorial context and ecological memory to restoration processes, helping integrate social and cultural dimensions into biodiversity management.
 
-🔓 4. Open science and knowledge infrastructures
+🔓 *4. Open science and knowledge infrastructures*
 
 I develop open-science approaches including citizen science, open databases, and practices for transparency and research traceability. This transversal line supports my entire research program by enhancing reproducibility, international collaboration, and knowledge transfer to society.
 
